@@ -7,7 +7,7 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/Aoe3AITournaments">
       <App />
     </BrowserRouter>
   </React.StrictMode>,

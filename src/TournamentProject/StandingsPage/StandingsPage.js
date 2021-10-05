@@ -272,9 +272,12 @@ const dummyCountriesAndData = [
     const dummyDataSorted = dummyCountriesAndData.sort((a,b) => {
         let keyA = a.elo;
         let keyB = b.elo;
+        let result = ''
 
-        if(keyA < keyB) return 1;
-        if(keyA > keyB) return -1;
+        if(keyA < keyB) result = 1;
+        if(keyA > keyB) result = -1;
+
+        return result
     });
 
     
@@ -302,7 +305,7 @@ const StandingsPage = () => {
                     }} >
                         
                         <div className={classes.Flag}>
-                            <img src={e.flag}/>
+                            <img alt='flag' src={e.flag}/>
                         </div>
 
                         <div className={classes.Content}>
