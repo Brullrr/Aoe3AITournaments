@@ -1,0 +1,210 @@
+.Body {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../../../Images/CannonBackground.jpg');
+    background-size: 100% 100%;
+}
+
+.Container {
+    position: absolute;
+    top: 5%;
+    left: 2%;
+    width: 98%;
+    display: grid;
+    grid-template-columns: 140px 20px 140px 40px 140px 60px 140px 80px 140px;
+    grid-template-rows: 8 4 16 8 8 4 4 2;
+}
+
+
+.Bracket {
+    border: 1px solid black;
+    border-right: none;
+    width: 140px;
+    text-align:unset;
+    background-color: rgba(167, 187, 187, 0.738); 
+    height: 20px;
+}
+.BufferBracket {
+    border: 1px solid black;
+    border-left: none;
+    border-right: none;
+    width: 20px;
+    text-align:unset;
+    background-color: rgba(167, 187, 187, 0.738); 
+    height: 38px;
+    background-image: url('../../../Images/Arrow.PNG');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+
+.Prelims {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(8, 40px);
+    margin-top: 20px;
+}
+
+.Prelims .Bracket:nth-child(odd) {
+    margin-top: 20px;
+    border-bottom: none;
+}
+.Prelims .Bracket:nth-child(even) {
+    border-top: none;
+}
+
+.Prelims .Bracket:nth-child(3) {
+    margin-top: 180px;
+}
+.Prelims .Bracket:nth-child(4) {
+    margin-top: 160px;
+}
+.Prelims .Bracket:nth-child(5) {
+    margin-top: 260px;
+}
+.Prelims .Bracket:nth-child(6) {
+    margin-top: 240px;
+}
+.Prelims .Bracket:nth-child(7) {
+    margin-top: 340px;
+}
+.Prelims .Bracket:nth-child(8) {
+    margin-top: 320px;
+}
+
+
+
+
+.PrelimBuffer {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(4, 40px);
+}
+
+.PrelimBuffer .BufferBracket:nth-child(1) {
+    margin-top: 40px;
+}
+.PrelimBuffer .BufferBracket:nth-child(2) {
+    margin-top: 240px;
+}
+.PrelimBuffer .BufferBracket:nth-child(3) {
+    margin-top: 360px;
+}
+.PrelimBuffer .BufferBracket:nth-child(4) {
+    margin-top: 480px;
+}
+
+
+.RoundOf16 {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(16, 40px);
+
+}
+
+
+
+.RoundOf16 .Bracket {
+    height: 40px;
+}
+
+.RoundOf16Buffer .BufferBracket {
+    width: 40px;
+    height: 78px;
+}
+.RoundOf16 .Bracket:nth-child(even) {
+    border-top: none;
+}
+.RoundOf16 .Bracket:nth-child(odd) {
+    border-bottom: none;
+}
+
+
+
+.RoundOf8 {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(8, 80px);
+
+}
+
+.RoundOf8 .Bracket {
+    height: 80px;
+}
+
+.RoundOf8 .Bracket:nth-child(even) {
+    border-top: none;
+}
+.RoundOf8 .Bracket:nth-child(odd) {
+    border-bottom: none;
+}
+
+.RoundOf8Buffer .BufferBracket {
+    width: 60px;
+    height: 158px;
+}
+
+.RoundOf4 {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(4, 160px);
+}
+.RoundOf4 .Bracket {
+    height: 160px;
+}
+
+.RoundOf4 .Bracket:nth-child(even) {
+    border-top: none;
+}
+.RoundOf4 .Bracket:nth-child(odd) {
+    border-bottom: none;
+}
+
+.RoundOf4Buffer .BufferBracket {
+    width: 80px;
+    height: 318px;
+}
+
+.RoundOf2 {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(2, 320px);
+
+}
+.RoundOf2 .Bracket {
+    text-align: center;
+    height: 320px;
+}
+
+.Winner {
+    position: absolute;
+    top: 40%;
+    width: 25%;
+    left: 70%;
+    height: 80px;
+    border: 1px solid black;
+    background-color: rgba(179, 179, 54, 0.753);
+    color: black;
+    font-size: 45px;
+    font-weight: bolder;
+    text-align: center;
+    border-radius: 24px;
+    line-height: 80px;
+}
+
+.MapImage {
+    position: absolute;
+    top: 55%;
+    height: 250px;
+    width: 250px;
+    left: 72%;
+    background-size: 100% 100%;
+}
+
+.MapImage:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+}
