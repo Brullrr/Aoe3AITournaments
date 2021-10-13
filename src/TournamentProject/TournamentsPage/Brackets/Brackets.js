@@ -28,7 +28,6 @@ const Brackets = (props) => {
             map: tournamentMap.name,
             countryData: countryData
         }))
-        setSetup(true)
     }
 
     const PrelimCountries =   [
@@ -66,9 +65,7 @@ const Brackets = (props) => {
         }
     ] 
     const [refresh, setRefresh] = useState(true)
-    if(refresh) {
-        setRefresh(false)
-    }
+    
 
     if(!setup && !tournamentMap.isPrelimsEloUpdated) {
         if(!tournamentMap.isPrelimsEloUpdated) {
@@ -1027,6 +1024,13 @@ const Brackets = (props) => {
 
 
     const turnOffOngoingHandler = () =>  roundOf2Over && dispatch(tournamentsSliceActions.ongoingToFalse())
+
+    if(refresh) {
+        setTimeout( ( ) => {
+            setRefresh(false)
+            console.log('Hello world')
+        }, 10)
+    }
 
     
 
