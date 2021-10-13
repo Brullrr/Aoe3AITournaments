@@ -6,8 +6,16 @@ import {tournamentsSliceActions} from '../../../store/tournamentsSlice';
 import { countrySliceActions } from '../../../store/countrySlice';
 import { useEffect} from 'react'
 
+
+function useForceUpdate(){
+    const [value, setValue] = useState(0); // integer state
+    return () => setValue(value => value + 1); // update the state to force render
+}
+
 const Brackets = (props) => {
     const dispatch = useDispatch();
+
+    const forceUpdate = useForceUpdate();
     
     let mapList = useSelector(state => state.tournamentsSlice.mapList)
     let countries = useSelector(state => state.countrySlice)
@@ -1029,12 +1037,9 @@ const Brackets = (props) => {
 
     const turnOffOngoingHandler = () =>  roundOf2Over && dispatch(tournamentsSliceActions.ongoingToFalse());
 
-    function useForceUpdate(){
-        const [value, setValue] = useState(0); // integer state
-        return () => setValue(value => value + 1); // update the state to force render
-    }
+    
     if(!refresh) {
-            useForceUpdate();
+            
         
            dispatch(tournamentsSliceActions.startGame(tournamentMap.name) )
         
@@ -1098,6 +1103,7 @@ const Brackets = (props) => {
         <div className={classes.Container}>
             <div className={classes.Prelims}>
                 { prelimArray.map((e, index) => <button onClick={() => {
+                                                    forceUpdate();
                                                     prelimVictoryHandler(index)}}
                                                     key={e.bracketKey} 
                                                     className={classes.Bracket}
