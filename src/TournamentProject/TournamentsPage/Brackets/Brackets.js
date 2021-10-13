@@ -1033,14 +1033,16 @@ const Brackets = (props) => {
         }, 10)
     }
 
-    refresh ? console.log('Refresh tournament') : console.log('No refresh') 
-    
+    refresh ? console.log(tournamentMap.prelimsRound[0].bracketHolder) : console.log(tournamentMap.prelimsRound[0].bracketHolder) 
+
+    const prelimArray = tournamentMap.prelimsRound[0].bracketHolder ?   tournamentMap.prelimsRound : PrelimCountries
+     
 
     return (
         <div className={classes.Body}  >
         <div className={classes.Container}>
             <div className={classes.Prelims}>
-                { tournamentMap.prelimsRound.map((e, index) => <button onClick={() => {
+                { prelimArray.map((e, index) => <button onClick={() => {
                                                     prelimVictoryHandler(index)}}
                                                     key={e.bracketKey} 
                                                     className={classes.Bracket}

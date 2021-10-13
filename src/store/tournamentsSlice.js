@@ -5522,7 +5522,6 @@ const tournamentsSlice = createSlice({
               
             state.mapList.forEach((element, index) => {
                 if(element.name === action.payload){
-
                      return state.mapList[index].gameStart = true
                     }
             });    
