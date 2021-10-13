@@ -1,4 +1,4 @@
-import { Route } from 'react-router-dom';
+import { Route, HashRouter } from 'react-router-dom';
 import Homepage from './Homepage/Homepage';
 import TournamentsPage from './TournamentsPage/TournamentsPage';
 import Brackets from './TournamentsPage/Brackets/Brackets';
@@ -13,6 +13,7 @@ const TournamentProject = () => {
 
     return (
         <div>
+            <HashRouter>
             <Route exact path='/'>
                 <Homepage />
             </Route>
@@ -32,7 +33,7 @@ const TournamentProject = () => {
                     </Route>
                 )
             })}
-
+            </HashRouter>
 
         </div>
     )
