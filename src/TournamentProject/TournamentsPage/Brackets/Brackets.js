@@ -1,21 +1,16 @@
 import { useState } from 'react'
 import classes from './Brackets.module.css'
-import { Link, useHistory } from 'react-router-dom';
+import { Link} from 'react-router-dom';
 import { useSelector,useDispatch } from 'react-redux';
 import {tournamentsSliceActions} from '../../../store/tournamentsSlice';
 import { countrySliceActions } from '../../../store/countrySlice';
 import { useEffect} from 'react'
 
 
-function useForceUpdate(){
-    const [value, setValue] = useState(0); // integer state
-    return () => setValue(value => value + 1); // update the state to force render
-}
 
 const Brackets = (props) => {
     const dispatch = useDispatch();
 
-    const forceUpdate = useForceUpdate();
     
     let mapList = useSelector(state => state.tournamentsSlice.mapList)
     let countries = useSelector(state => state.countrySlice)
@@ -74,7 +69,6 @@ const Brackets = (props) => {
             rank: 5
         }
     ] 
-    const refresh = tournamentMap.gameStart
 
     
     
@@ -1036,74 +1030,18 @@ const Brackets = (props) => {
 
 
     const turnOffOngoingHandler = () =>  roundOf2Over && dispatch(tournamentsSliceActions.ongoingToFalse());
-    let history = useHistory();
+
     
-    if(!refresh) {
-            
-            history.push('/' + tournamentMap.name)
-           dispatch(tournamentsSliceActions.startGame(tournamentMap.name) )
-        
-    }
-
-    refresh ? console.log('Brackets.js] refresh True:  prelimCountries[0] ' + PrelimCountries[0].country  ) :
-        console.log('refresh  False PrelimCountries:  '  +  PrelimCountries[0].country) 
-
-    refresh ? console.log('Bracket.js] Refresh True:  state.prelims[0] : '  + tournamentMap.prelimsRound[0].bracketHolder ) :
-        console.log('refresh  False state.Prelims:  '  +  tournamentMap.prelimsRound[0].bracketHolder) 
 
 
-
-
-    const prelimArray = tournamentMap.prelimsRound[0].bracketHolder ?   tournamentMap.prelimsRound : [
-        {
-            bracketHolder:  PrelimCountries[0].country,
-            bracketKey: 1,
-            bracketVictory: false
-        },
-        {
-            bracketHolder:  PrelimCountries[2].country,
-            bracketKey: 2,
-            bracketVictory: false
-        },
-        {
-            bracketHolder:  PrelimCountries[4].country,
-            bracketKey: 3,
-            bracketVictory: false
-        },
-        {
-            bracketHolder:  PrelimCountries[6].country,
-            bracketKey: 4,
-            bracketVictory: false
-        },
-        {
-            bracketHolder:  PrelimCountries[7].country,
-            bracketKey: 5,
-            bracketVictory: false
-        },
-        {
-            bracketHolder:  PrelimCountries[5].country,
-            bracketKey: 6,
-            bracketVictory: false
-        },
-        {
-            bracketHolder:  PrelimCountries[3].country,
-            bracketKey: 7,
-            bracketVictory: false
-        },
-        {
-            bracketHolder:  PrelimCountries[1].country,
-            bracketKey: 8,
-            bracketVictory: false
-        }
-]
      
 
     return (
         <div className={classes.Body}  >
         <div className={classes.Container}>
             <div className={classes.Prelims}>
-                { prelimArray.map((e, index) => <button onClick={() => {
-                                                    forceUpdate();
+                { tournamentMap.prelimsRound[0].bracketHolder && tournamentMap.prelimsRound.map((e, index) => <button onClick={() => {
+                                                    
                                                     prelimVictoryHandler(index)}}
                                                     key={e.bracketKey} 
                                                     className={classes.Bracket}

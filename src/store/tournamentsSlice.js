@@ -34,7 +34,6 @@ const initialState = {
                         pathway: Alaska,
                         finished: false,
                         setUp: [],
-                        gameStart: false,
                         prelimsRound: [
                                         {
                                             bracketHolder: '',
@@ -5517,16 +5516,6 @@ const tournamentsSlice = createSlice({
                      return state.mapList[index].isRoundOf2EloUpdated = true
                     }
             });
-        },
-        startGame(state, action) {
-              
-            state.mapList.forEach((element, index) => {
-
-                if(element.name === action.payload){
-                    console.log('TournamentSlice Reached')
-                     return state.mapList[index].gameStart = true
-                    }
-            });    
         }
     }
 });
