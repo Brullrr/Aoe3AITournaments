@@ -28,6 +28,7 @@ const Brackets = (props) => {
             map: tournamentMap.name,
             countryData: countryData
         }))
+        setSetup(true)
     }
 
     const PrelimCountries =   [
