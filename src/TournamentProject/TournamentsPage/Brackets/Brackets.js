@@ -30,6 +30,8 @@ const Brackets = (props) => {
         }))
     }
 
+    
+
     const PrelimCountries =   [
         {
             country: dataSorted[12],
@@ -1028,14 +1030,61 @@ const Brackets = (props) => {
     const turnOffOngoingHandler = () =>  roundOf2Over && dispatch(tournamentsSliceActions.ongoingToFalse());
 
     if(!refresh) {
-        setTimeout( ( ) => {
            dispatch(tournamentsSliceActions.startGame(tournamentMap.name) )
-        }, 10)
+        
     }
 
-    refresh ? console.log(tournamentMap.prelimsRound[0].bracketHolder) : console.log(tournamentMap.prelimsRound[0].bracketHolder) 
+    refresh ? console.log('Brackets.js] refresh True:  prelimCountries[0] ' + PrelimCountries[0].country  ) :
+        console.log('refresh  False PrelimCountries:  '  +  PrelimCountries[0].country) 
 
-    const prelimArray = tournamentMap.prelimsRound[0].bracketHolder ?   tournamentMap.prelimsRound : PrelimCountries
+    refresh ? console.log('Bracket.js] Refresh True:  state.prelims[0] : '  + tournamentMap.prelimsRound[0].bracketHolder ) :
+        console.log('refresh  False state.Prelims:  '  +  tournamentMap.prelimsRound[0].bracketHolder) 
+
+
+
+
+    const prelimArray = tournamentMap.prelimsRound[0].bracketHolder ?   tournamentMap.prelimsRound : [
+        {
+            bracketHolder:  PrelimCountries[0].country,
+            bracketKey: 1,
+            bracketVictory: false
+        },
+        {
+            bracketHolder:  PrelimCountries[2].country,
+            bracketKey: 2,
+            bracketVictory: false
+        },
+        {
+            bracketHolder:  PrelimCountries[4].country,
+            bracketKey: 3,
+            bracketVictory: false
+        },
+        {
+            bracketHolder:  PrelimCountries[6].country,
+            bracketKey: 4,
+            bracketVictory: false
+        },
+        {
+            bracketHolder:  PrelimCountries[7].country,
+            bracketKey: 5,
+            bracketVictory: false
+        },
+        {
+            bracketHolder:  PrelimCountries[5].country,
+            bracketKey: 6,
+            bracketVictory: false
+        },
+        {
+            bracketHolder:  PrelimCountries[3].country,
+            bracketKey: 7,
+            bracketVictory: false
+        },
+        {
+            bracketHolder:  PrelimCountries[1].country,
+            bracketKey: 8,
+            bracketVictory: false
+        }
+]
      
 
     return (
