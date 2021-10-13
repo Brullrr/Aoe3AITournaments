@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Aoe3AITournaments/static/css/main.11f3ec77.chunk.css",
-    "main.js": "/Aoe3AITournaments/static/js/main.68c9be0f.chunk.js",
-    "main.js.map": "/Aoe3AITournaments/static/js/main.68c9be0f.chunk.js.map",
+    "main.js": "/Aoe3AITournaments/static/js/main.b6a5bea7.chunk.js",
+    "main.js.map": "/Aoe3AITournaments/static/js/main.b6a5bea7.chunk.js.map",
     "runtime-main.js": "/Aoe3AITournaments/static/js/runtime-main.7407ca3c.js",
     "runtime-main.js.map": "/Aoe3AITournaments/static/js/runtime-main.7407ca3c.js.map",
     "static/js/2.05431777.chunk.js": "/Aoe3AITournaments/static/js/2.05431777.chunk.js",
@@ -83,6 +83,6 @@
     "static/js/runtime-main.7407ca3c.js",
     "static/js/2.05431777.chunk.js",
     "static/css/main.11f3ec77.chunk.css",
-    "static/js/main.68c9be0f.chunk.js"
+    "static/js/main.b6a5bea7.chunk.js"
   ]
 }
