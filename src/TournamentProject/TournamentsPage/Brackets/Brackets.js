@@ -65,6 +65,10 @@ const Brackets = (props) => {
             rank: 5
         }
     ] 
+    const [refresh, setRefresh] = useState(true)
+    if(refresh) {
+        setRefresh(false)
+    }
 
     if(!setup && !tournamentMap.isPrelimsEloUpdated) {
         if(!tournamentMap.isPrelimsEloUpdated) {
