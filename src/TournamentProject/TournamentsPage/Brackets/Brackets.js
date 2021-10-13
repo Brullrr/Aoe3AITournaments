@@ -64,7 +64,7 @@ const Brackets = (props) => {
             rank: 5
         }
     ] 
-    const [refresh, setRefresh] = useState(true)
+    const [refresh, setRefresh] = useState(tournamentMap.gameStart)
     
 
     if(!setup && !tournamentMap.isPrelimsEloUpdated) {
@@ -1028,7 +1028,9 @@ const Brackets = (props) => {
     if(refresh) {
         setTimeout( ( ) => {
             setRefresh(false)
-            console.log('Hello world')
+            tournamentsSliceActions.startGame({
+                map: tournamentMap.name
+            }) 
         }, 10)
     }
 
