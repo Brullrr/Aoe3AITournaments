@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import classes from './Brackets.module.css'
-import { Link } from 'react-router-dom';
+import { Link, useHistory } from 'react-router-dom';
 import { useSelector,useDispatch } from 'react-redux';
 import {tournamentsSliceActions} from '../../../store/tournamentsSlice';
 import { countrySliceActions } from '../../../store/countrySlice';
@@ -1036,11 +1036,11 @@ const Brackets = (props) => {
 
 
     const turnOffOngoingHandler = () =>  roundOf2Over && dispatch(tournamentsSliceActions.ongoingToFalse());
-
+    let history = useHistory();
     
     if(!refresh) {
             
-        
+            history.push('/' + tournamentMap.name)
            dispatch(tournamentsSliceActions.startGame(tournamentMap.name) )
         
     }
