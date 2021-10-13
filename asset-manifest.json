@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Aoe3AITournaments/static/css/main.11f3ec77.chunk.css",
-    "main.js": "/Aoe3AITournaments/static/js/main.40a36488.chunk.js",
-    "main.js.map": "/Aoe3AITournaments/static/js/main.40a36488.chunk.js.map",
+    "main.js": "/Aoe3AITournaments/static/js/main.f0b266b8.chunk.js",
+    "main.js.map": "/Aoe3AITournaments/static/js/main.f0b266b8.chunk.js.map",
     "runtime-main.js": "/Aoe3AITournaments/static/js/runtime-main.0002aa86.js",
     "runtime-main.js.map": "/Aoe3AITournaments/static/js/runtime-main.0002aa86.js.map",
-    "static/js/2.cc70d038.chunk.js": "/Aoe3AITournaments/static/js/2.cc70d038.chunk.js",
-    "static/js/2.cc70d038.chunk.js.map": "/Aoe3AITournaments/static/js/2.cc70d038.chunk.js.map",
+    "static/js/2.a08687e3.chunk.js": "/Aoe3AITournaments/static/js/2.a08687e3.chunk.js",
+    "static/js/2.a08687e3.chunk.js.map": "/Aoe3AITournaments/static/js/2.a08687e3.chunk.js.map",
     "static/js/3.49ff2031.chunk.js": "/Aoe3AITournaments/static/js/3.49ff2031.chunk.js",
     "static/js/3.49ff2031.chunk.js.map": "/Aoe3AITournaments/static/js/3.49ff2031.chunk.js.map",
     "index.html": "/Aoe3AITournaments/index.html",
     "static/css/main.11f3ec77.chunk.css.map": "/Aoe3AITournaments/static/css/main.11f3ec77.chunk.css.map",
-    "static/js/2.cc70d038.chunk.js.LICENSE.txt": "/Aoe3AITournaments/static/js/2.cc70d038.chunk.js.LICENSE.txt",
+    "static/js/2.a08687e3.chunk.js.LICENSE.txt": "/Aoe3AITournaments/static/js/2.a08687e3.chunk.js.LICENSE.txt",
     "static/media/Alaska.b175f62c.png": "/Aoe3AITournaments/static/media/Alaska.b175f62c.png",
     "static/media/America.cb10f5e0.png": "/Aoe3AITournaments/static/media/America.cb10f5e0.png",
     "static/media/American.e6e56042.png": "/Aoe3AITournaments/static/media/American.e6e56042.png",
@@ -81,8 +81,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.0002aa86.js",
-    "static/js/2.cc70d038.chunk.js",
+    "static/js/2.a08687e3.chunk.js",
     "static/css/main.11f3ec77.chunk.css",
-    "static/js/main.40a36488.chunk.js"
+    "static/js/main.f0b266b8.chunk.js"
   ]
 }
