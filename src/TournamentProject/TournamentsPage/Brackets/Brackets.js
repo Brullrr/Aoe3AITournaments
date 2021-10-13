@@ -7,11 +7,12 @@ import { countrySliceActions } from '../../../store/countrySlice';
 import { useEffect} from 'react'
 
 
-
 const Brackets = (props) => {
     const dispatch = useDispatch();
 
-    
+    const [refresh, setRefresh] = useState(0)
+    console.log('Brackets.js refresh' + refresh)
+
     let mapList = useSelector(state => state.tournamentsSlice.mapList)
     let countries = useSelector(state => state.countrySlice)
     let tournamentMap = ''
@@ -23,7 +24,6 @@ const Brackets = (props) => {
     const dataSorted = tournamentMap.setUp;
     //                                          -- Prelims --
     const [prelimStart, setPrelimStart] = useState(true)
-    
     const [setup, setSetup] = useState(tournamentMap.setUp.length > 0)
 
     if(!setup){
@@ -33,45 +33,6 @@ const Brackets = (props) => {
         }))
     }
 
-    
-
-    const PrelimCountries =   [
-        {
-            country: dataSorted[12],
-            rank: 1
-        },
-        {
-            country: dataSorted[19],
-            rank: 8
-        },
-        {
-            country: dataSorted[13],
-            rank: 2
-        },
-        {
-            country: dataSorted[18],
-            rank: 7
-        },
-        {
-            country: dataSorted[14],
-            rank: 3
-        },
-        {
-            country: dataSorted[17],
-            rank: 6
-        },
-        {
-            country: dataSorted[15],
-            rank: 4
-        },
-        {
-            country: dataSorted[16],
-            rank: 5
-        }
-    ] 
-
-    
-    
 
     if(!setup && !tournamentMap.isPrelimsEloUpdated) {
         if(!tournamentMap.isPrelimsEloUpdated) {
@@ -165,25 +126,68 @@ const Brackets = (props) => {
     }
 
 
-    const addPrelims = () => {
-        tournamentMap.prelimsRound.forEach((element, index) => {
-            PrelimCountries.forEach(e => {
-            if(e.rank === element.bracketKey) {
-                dispatch(tournamentsSliceActions.updatePrelims({
-                    map: tournamentMap.name,
-                    index: index,
-                    country: e.country
-                }))
+    
+
+    useEffect(() => {
+        const PrelimCountries =   [
+            {
+                country: dataSorted[12],
+                rank: 1
+            },
+            {
+                country: dataSorted[19],
+                rank: 8
+            },
+            {
+                country: dataSorted[13],
+                rank: 2
+            },
+            {
+                country: dataSorted[18],
+                rank: 7
+            },
+            {
+                country: dataSorted[14],
+                rank: 3
+            },
+            {
+                country: dataSorted[17],
+                rank: 6
+            },
+            {
+                country: dataSorted[15],
+                rank: 4
+            },
+            {
+                country: dataSorted[16],
+                rank: 5
             }
-        })})
+        ] 
 
-        
+        const addPrelims = () => {
+            tournamentMap.prelimsRound.forEach((element, index) => {
+                PrelimCountries.forEach(e => {
+                if(e.rank === element.bracketKey) {
+                    dispatch(tournamentsSliceActions.updatePrelims({
+                        map: tournamentMap.name,
+                        index: index,
+                        country: e.country
+                    }))
+                }
+            })})
+    
+            
+    
+        }
+        if(prelimStart) {
+            addPrelims();
+            setPrelimStart(false)
+        }
+    }, [ setPrelimStart, prelimStart, tournamentMap.prelimsRound, dispatch, tournamentMap.name, dataSorted])
+    
 
-    }
-    if(prelimStart) {
-        addPrelims();
-        setPrelimStart(false)
-    }
+
+
     const prelimVictoryHandler = (index) => {
         dispatch(tournamentsSliceActions.prelimVictories({
             map: tournamentMap.name,
@@ -1032,7 +1036,11 @@ const Brackets = (props) => {
     const turnOffOngoingHandler = () =>  roundOf2Over && dispatch(tournamentsSliceActions.ongoingToFalse());
 
     
-
+    useEffect(() => {
+        if(!tournamentMap.prelimsRound[0].bracketHolder) {
+                 setRefresh(refresh + 1)
+            }
+    },[tournamentMap.prelimsRound, refresh] )
 
      
 
