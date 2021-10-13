@@ -1,13 +1,30 @@
 import classes from './NewTournamentModal.module.css'
+import { useSelector, useDispatch } from 'react-redux';
+import {tournamentsSliceActions} from '../../../store/tournamentsSlice';
+
+
 
 const NewTournamentModal = (props) => {
-    console.log('Didthis run?')
+    const dispatch = useDispatch();
+    const tournments = useSelector(state => state.tournamentsSlice.mapList)
+
+    const turnOngoingOn = (e) => dispatch(tournamentsSliceActions.ongoingToTrue(e))
 
     return (
         <div className={classes.Body}>
-            <p>Enter Tournament Name</p>
-            <input type='text>'  />
-            <button onClick={() =>{props.clicked()}}  >Submit</button>
+            <div className={classes.ListDiv}>
+                <ol className={classes.List}>
+            {tournments.map(e => !e.finished ? <li  
+                                key={e.name} 
+                                className={ classes.ListItem}>
+                <button 
+                    onClick={() =>{
+                        props.clicked();
+                        turnOngoingOn(e.name)
+                        }} 
+                >{e.name}</button></li> : null)}
+                </ol>
+            </div>
         </div>
     )
 }

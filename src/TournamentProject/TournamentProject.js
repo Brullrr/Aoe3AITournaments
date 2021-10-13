@@ -2,12 +2,14 @@ import { Route } from 'react-router-dom';
 import Homepage from './Homepage/Homepage';
 import TournamentsPage from './TournamentsPage/TournamentsPage';
 import Brackets from './TournamentsPage/Brackets/Brackets';
-import { MapList } from './MapList/MapList';
 import StandingsPage from './StandingsPage/StandingsPage';
+import { useSelector } from 'react-redux';
+
 
 const TournamentProject = () => {
 
-    const tournaments = MapList.map(e => e.name)
+    const tournaments = useSelector(state => state.tournamentsSlice.mapList).map( e => e.name)
+    
 
     return (
         <div>

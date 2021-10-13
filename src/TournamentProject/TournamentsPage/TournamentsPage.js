@@ -2,7 +2,7 @@ import classes from './TournamentsPage.module.css'
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import NewTournamentModal from './NewTournamentModal/NewTournamentModal';
-import { MapList } from '../MapList/MapList';
+import { useSelector } from 'react-redux';
 
 
 const TournamentsPage = () => {
@@ -13,16 +13,15 @@ const TournamentsPage = () => {
         setIsModalOpen(!isModalOpen)
     }
 
-    const tournments = MapList.map(e => e.name)
+    const isTournamentOngoing = useSelector(state => state.tournamentsSlice.ongoingTournament)
 
-   
+    const tournments = useSelector(state => state.tournamentsSlice.mapList).map(e => e)
 
-    let isTournamentOngoing = false
 
     let output = (<div>
         <div className={ classes.ListDiv}>
             <ol className={ classes.List} >
-                { tournments.map(e => <li  key={e} className={ classes.ListItem}><Link to={'/' + e}><button >{e}</button></Link></li>) }
+                { tournments.map(e => e.finished ? <li  key={e.name} className={ classes.ListItem}><Link to={'/' + e.name}><button >{e.name}</button></Link></li> : null)  }
             </ol>
         </div>
 

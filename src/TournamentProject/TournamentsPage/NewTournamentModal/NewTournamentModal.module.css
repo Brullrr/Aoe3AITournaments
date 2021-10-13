@@ -1,18 +1,10 @@
 .Body {
-    border: 1px solid black ;
     position: absolute;
-    top: 35%;
-    left: 40%;
-    width: 20vw;   
-    background-color: rgba(128, 128, 128, 0.555);
-    text-align: center;
-    display: grid;
-    grid-template-columns: auto;
-    background: 
-    linear-gradient(to right, rgb(66, 20, 3), rgb(128, 42, 11) 30% 70%, rgb(66, 20, 3)) padding-box, 
-    linear-gradient(to left, rgb(112, 99, 25), rgb(206, 176, 6), rgb(128, 112, 25)) border-box;
-   border: 3px solid transparent;
-   border-radius: 8px;
+    top: 0%;
+    left: 0%;   
+    
+    width: 100%;
+    height: 100%;
 }
 
 .Body p {
@@ -28,4 +20,29 @@
     font-size: 20px;
     color: rgb(180, 161, 49);
     border-radius: 8px;
+}
+
+.ListDiv {
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    font-family:arial;
+    max-height: 50vh;
+    width: 50vw;
+    min-width: 200px;
+    background: 
+    linear-gradient(to right, rgb(66, 20, 3), rgb(128, 42, 11) 30% 70%, rgb(66, 20, 3)) padding-box, 
+    linear-gradient(to left, rgb(112, 99, 25), rgb(206, 176, 6), rgb(128, 112, 25)) border-box;
+   border: 3px solid transparent;
+   border-radius: 8px;
+   text-align: center;
+}
+
+.List {
+    list-style:none;
+    max-height: 50vh;
+    margin:0;
+    overflow:auto;
+    padding:0;
+    border-radius: 24px;
 }
