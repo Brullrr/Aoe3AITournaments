@@ -5518,12 +5518,14 @@ const tournamentsSlice = createSlice({
                     }
             });
         },
-        startGame(state, action ) {
+        startGame(state, action) {
+              
             state.mapList.forEach((element, index) => {
-                if(element.name === action.payload.map){
+                if(element.name === action.payload){
+
                      return state.mapList[index].gameStart = true
                     }
-            });
+            });    
         }
     }
 });

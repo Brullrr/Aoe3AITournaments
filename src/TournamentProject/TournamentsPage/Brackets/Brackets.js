@@ -64,7 +64,9 @@ const Brackets = (props) => {
             rank: 5
         }
     ] 
-    const [refresh, setRefresh] = useState(tournamentMap.gameStart)
+    const refresh = tournamentMap.gameStart
+
+    
     
 
     if(!setup && !tournamentMap.isPrelimsEloUpdated) {
@@ -1023,17 +1025,15 @@ const Brackets = (props) => {
     }
 
 
-    const turnOffOngoingHandler = () =>  roundOf2Over && dispatch(tournamentsSliceActions.ongoingToFalse())
+    const turnOffOngoingHandler = () =>  roundOf2Over && dispatch(tournamentsSliceActions.ongoingToFalse());
 
-    if(refresh) {
+    if(!refresh) {
         setTimeout( ( ) => {
-            setRefresh(false)
-            tournamentsSliceActions.startGame({
-                map: tournamentMap.name
-            }) 
+           dispatch(tournamentsSliceActions.startGame(tournamentMap.name) )
         }, 10)
     }
 
+    refresh ? console.log('Refresh tournament') : console.log('No refresh') 
     
 
     return (
