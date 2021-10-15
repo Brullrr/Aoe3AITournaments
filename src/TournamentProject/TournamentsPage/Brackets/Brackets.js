@@ -444,11 +444,11 @@ const Brackets = (props) => {
 
             let winnerElo = countriesCopy[winnerIndex].elo;
             let loserElo = countriesCopy[loserIndex].elo;
-            let eloDifference = winnerElo - loserElo;
-            let percentage = ( 1/(1+Math.pow(10, eloDifference/400)) );
+            let eloDifference = (winnerElo - loserElo) / 400;
+            let percentage = ( 1/(1 + (Math.pow(10, eloDifference))) );
             let eloChange = Math.round(32*(1 - percentage));
-            let newWinnerElo = winnerElo + eloChange;
-            let newLoserElo = loserElo - eloChange; 
+            let newWinnerElo = winnerElo + (32 - eloChange);
+            let newLoserElo = loserElo - (32 - eloChange); 
             countriesCopy[winnerIndex].elo = newWinnerElo;
             countriesCopy[loserIndex].elo = newLoserElo;
             countriesCopy[winnerIndex].wins = countriesCopy[winnerIndex].wins + 1;
@@ -508,11 +508,11 @@ const Brackets = (props) => {
 
             let winnerElo = countriesCopy[winnerIndex].elo;
             let loserElo = countriesCopy[loserIndex].elo;
-            let eloDifference = winnerElo - loserElo;
-            let percentage = ( 1/(1+Math.pow(10, eloDifference/400)) );
+            let eloDifference = (winnerElo - loserElo) / 400;
+            let percentage = ( 1/(1 + (Math.pow(10, eloDifference))) );
             let eloChange = Math.round(32*(1 - percentage));
-            let newWinnerElo = winnerElo + eloChange;
-            let newLoserElo = loserElo - eloChange; 
+            let newWinnerElo = winnerElo + (32 - eloChange);
+            let newLoserElo = loserElo - (32 - eloChange); 
             countriesCopy[winnerIndex].elo = newWinnerElo;
             countriesCopy[loserIndex].elo = newLoserElo;
             countriesCopy[winnerIndex].wins = countriesCopy[winnerIndex].wins + 1;
@@ -820,11 +820,11 @@ const Brackets = (props) => {
 
             let winnerElo = countriesCopy[winnerIndex].elo;
             let loserElo = countriesCopy[loserIndex].elo;
-            let eloDifference = winnerElo - loserElo;
-            let percentage = ( 1/(1+Math.pow(10, eloDifference/400)) );
+            let eloDifference = (winnerElo - loserElo) / 400;
+            let percentage = ( 1/(1 + (Math.pow(10, eloDifference))) );
             let eloChange = Math.round(32*(1 - percentage));
-            let newWinnerElo = winnerElo + eloChange;
-            let newLoserElo = loserElo - eloChange; 
+            let newWinnerElo = winnerElo + (32 - eloChange);
+            let newLoserElo = loserElo - (32 - eloChange); 
             countriesCopy[winnerIndex].elo = newWinnerElo;
             countriesCopy[loserIndex].elo = newLoserElo;
             countriesCopy[winnerIndex].wins = countriesCopy[winnerIndex].wins + 1;
@@ -917,7 +917,6 @@ const Brackets = (props) => {
    
         tournamentMap.roundOf4.forEach(e => allBracketsArray.push(e))
         let countriesCopy = JSON.parse(JSON.stringify(countries))
-
         for(let i = 0; i< 3; i ++){
             
             let winner = ''; 
@@ -942,11 +941,11 @@ const Brackets = (props) => {
 
             let winnerElo = countriesCopy[winnerIndex].elo;
             let loserElo = countriesCopy[loserIndex].elo;
-            let eloDifference = winnerElo - loserElo;
-            let percentage = ( 1/(1+Math.pow(10, eloDifference/400)) );
+            let eloDifference = (winnerElo - loserElo) / 400;
+            let percentage = ( 1/(1 + (Math.pow(10, eloDifference))) );
             let eloChange = Math.round(32*(1 - percentage));
-            let newWinnerElo = winnerElo + eloChange;
-            let newLoserElo = loserElo - eloChange; 
+            let newWinnerElo = winnerElo + (32 - eloChange);
+            let newLoserElo = loserElo - (32 - eloChange);
             countriesCopy[winnerIndex].elo = newWinnerElo;
             countriesCopy[loserIndex].elo = newLoserElo;
             countriesCopy[winnerIndex].wins = countriesCopy[winnerIndex].wins + 1;
@@ -1005,11 +1004,11 @@ const Brackets = (props) => {
 
             let winnerElo = countriesCopy[winnerIndex].elo;
             let loserElo = countriesCopy[loserIndex].elo;
-            let eloDifference = winnerElo - loserElo;
-            let percentage = ( 1/(1+Math.pow(10, eloDifference/400)) );
+            let eloDifference = (winnerElo - loserElo) / 400;
+            let percentage = ( 1/(1 + (Math.pow(10, eloDifference))) );
             let eloChange = Math.round(32*(1 - percentage));
-            let newWinnerElo = winnerElo + eloChange;
-            let newLoserElo = loserElo - eloChange; 
+            let newWinnerElo = winnerElo + (32 - eloChange);
+            let newLoserElo = loserElo - (32 - eloChange); 
             countriesCopy[winnerIndex].elo = newWinnerElo;
             countriesCopy[loserIndex].elo = newLoserElo;
             countriesCopy[winnerIndex].wins = countriesCopy[winnerIndex].wins + 1;
