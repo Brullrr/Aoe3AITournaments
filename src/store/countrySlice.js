@@ -1,7 +1,7 @@
 import { createSlice} from '@reduxjs/toolkit';
 
 import SwedenBackground from '../Images/Homecity/Swedish.png';
-import PlayerBackground from '../Images/Homecity/America.png';
+import PlayerBackground from '../Images/BoatBackground.jpg';
 import AmericaBackground from '../Images/Homecity/America.png';
 import IncaBackground from '../Images/Homecity/Incan.png';
 import JapanBackground from '../Images/Homecity/Japanese.png';
@@ -22,7 +22,7 @@ import GermanyBackground from '../Images/Homecity/German.png';
 import PortugalBackground from '../Images/Homecity/Portuguese.png';
 
 import Sweden from '../Images/Flags/Swedish.png';
-import Player from '../Images/Flags/American.png';
+import Player from '../Images/SailorBackground.jpg';
 import America from '../Images/Flags/American.png';
 import Inca from '../Images/Flags/Incan.png';
 import Japan from '../Images/Flags/Japanese.png';
