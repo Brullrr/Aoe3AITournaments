@@ -5181,7 +5181,12 @@ const tournamentsSlice = createSlice({
             });
             state.ongoingTournament = true;
         },
-        ongoingToFalse(state) {
+        ongoingToFalse(state, action) {
+            state.mapList.forEach((element, index) => {
+                if(element.name === action.payload){
+                     return state.mapList[index].finished = 'end'
+                    }
+            });
             state.ongoingTournament = false;
         },
         setupData(state, action){

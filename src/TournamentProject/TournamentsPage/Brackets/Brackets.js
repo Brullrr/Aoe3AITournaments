@@ -12,12 +12,12 @@ const Brackets = (props) => {
 
     const [refresh, setRefresh] = useState(0)
     console.log('Brackets.js refresh' + refresh)
-
+    
     let mapList = useSelector(state => state.tournamentsSlice.mapList)
     let countries = useSelector(state => state.countrySlice)
     let tournamentMap = ''
     mapList.map(e => e.name === props.name ? tournamentMap = e : null )
-
+    let ongoing = tournamentMap.finished
     let mapImage = tournamentMap.pathway
 
     const countryData = useSelector( state => [...state.countrySlice])
@@ -1032,8 +1032,11 @@ const Brackets = (props) => {
     }
 
 
-    const turnOffOngoingHandler = () =>  roundOf2Over && dispatch(tournamentsSliceActions.ongoingToFalse());
-
+    const turnOffOngoingHandler = () =>  {
+        if (roundOf2Over && ongoing !== 'end'){
+            dispatch(tournamentsSliceActions.ongoingToFalse(tournamentMap.name));
+        }
+    }
     
     useEffect(() => {
         if(!tournamentMap.prelimsRound[0].bracketHolder) {
@@ -1044,7 +1047,11 @@ const Brackets = (props) => {
      
 
     return (
-        <div className={classes.Body}  >
+        <div className={classes.Body} style={{
+            backgroundImage: 'url(' + mapImage + ')',
+            backgroundRepeat: 'no-repeat',
+            backgroundSize: '110% 120%'
+        }}  >
         <div className={classes.Container}>
             <div className={classes.Prelims}>
                 { tournamentMap.prelimsRound[0].bracketHolder && tournamentMap.prelimsRound.map((e, index) => <button onClick={() => {
@@ -1054,7 +1061,7 @@ const Brackets = (props) => {
                                                     className={classes.Bracket}
                                                     disabled={prelimsOver}
                                                     style={{
-                                                        background: e.bracketVictory === 'V' ? 'linear-gradient(to right, green, rgba(167, 187, 187, 0.738) 98%)' :e.bracketVictory === 'L' ? 'linear-gradient(to right, salmon, rgba(167, 187, 187, 0.738) 98%)' : null
+                                                        background: e.bracketVictory === 'V' ? 'linear-gradient(to right, green, rgba(167, 187, 187, 0.738) 98%) padding-box, linear-gradient(to left, black,  green) border-box' :e.bracketVictory === 'L' ? 'linear-gradient(to right, red, rgba(167, 187, 187, 0.738) 98%) padding-box, linear-gradient(to left, black, red) border-box' : null
                                                     }}
                                                     
                                                     >{e.bracketHolder} </button>
@@ -1077,8 +1084,8 @@ const Brackets = (props) => {
                                                     className={classes.Bracket}
                                                     disabled={roundOf16Over}
                                                     style={{
-                                                        background: e.bracketVictory === 'V' ? 'linear-gradient(to right, green, rgba(167, 187, 187, 0.738) 98%)' :e.bracketVictory === 'L' ? 'linear-gradient(to right, salmon, rgba(167, 187, 187, 0.738) 98%)' : null
-                                                    
+                                                        background: e.bracketVictory === 'V' ? 'linear-gradient(to right, green, rgba(167, 187, 187, 0.738) 98%) padding-box, linear-gradient(to left, black,  green) border-box' :e.bracketVictory === 'L' ? 'linear-gradient(to right, red, rgba(167, 187, 187, 0.738) 98%) padding-box, linear-gradient(to left, black, red) border-box' : null
+                                                       
                                                     }}
                                                     
                                                     >{e.bracketHolder}</button>
@@ -1090,7 +1097,7 @@ const Brackets = (props) => {
                 roundOf16Start && <div className={classes.RoundOf16Buffer} >
                 {
                     ['1','2','3','4','5','6','7','8'].map( (e) => {
-                        return ( <div key={e} className={classes.BufferBracket}></div>)
+                        return ( <div key={e} className={classes.BufferBracketTwo}></div>)
                     })
                 }
             </div>
@@ -1106,8 +1113,8 @@ const Brackets = (props) => {
                                                     className={classes.Bracket}
                                                     disabled={roundOf8Over}
                                                     style={{
-                                                        background: e.bracketVictory === 'V' ? 'linear-gradient(to right, green, rgba(167, 187, 187, 0.738) 98%)' :e.bracketVictory === 'L' ? 'linear-gradient(to right, salmon, rgba(167, 187, 187, 0.738) 98%)' : null
-                                                    
+                                                        background: e.bracketVictory === 'V' ? 'linear-gradient(to right, green, rgba(167, 187, 187, 0.738) 98%) padding-box, linear-gradient(to left, black,  green) border-box' :e.bracketVictory === 'L' ? 'linear-gradient(to right, red, rgba(167, 187, 187, 0.738) 98%) padding-box, linear-gradient(to left, black, red) border-box' : null
+
                                                     }}
                                                     
                                                     >{e.bracketHolder} </button>
@@ -1119,7 +1126,7 @@ const Brackets = (props) => {
                 roundOf8Start && <div className={classes.RoundOf8Buffer} >
                 {
                     ['1','2','3','4',].map( (e) => {
-                        return ( <div key={e} className={classes.BufferBracket}></div>)
+                        return ( <div key={e} className={classes.BufferBracketThree}></div>)
                     })
                 }
             </div>
@@ -1136,7 +1143,8 @@ const Brackets = (props) => {
                                                 className={classes.Bracket}
                                                 disabled={roundOf4Over}
                                                 style={{
-                                                    background: e.bracketVictory === 'V' ? 'linear-gradient(to right, green, rgba(167, 187, 187, 0.738) 98%)' :e.bracketVictory === 'L' ? 'linear-gradient(to right, salmon, rgba(167, 187, 187, 0.738) 98%)' : null
+                                                    background: e.bracketVictory === 'V' ? 'linear-gradient(to right, green, rgba(167, 187, 187, 0.738) 98%) padding-box, linear-gradient(to left, black,  green) border-box' :e.bracketVictory === 'L' ? 'linear-gradient(to right, red, rgba(167, 187, 187, 0.738) 98%) padding-box, linear-gradient(to left, black, red) border-box' : null
+
                                                 }}
                                                 
                                                 >{e.bracketHolder} </button>
@@ -1147,7 +1155,7 @@ const Brackets = (props) => {
                 roundOf4Start && <div className={classes.RoundOf4Buffer} >
                 {
                     ['1','2'].map( (i) => {
-                        return ( <div key={i} className={classes.BufferBracket}></div>)
+                        return ( <div key={i} className={classes.BufferBracketFour}></div>)
                     })
                 }
             </div>
@@ -1162,7 +1170,8 @@ const Brackets = (props) => {
                                                 className={classes.Bracket}
                                                 disabled={roundOf2Over}
                                                 style={{
-                                                    background: e.bracketVictory === 'V' ? 'linear-gradient(to right, green, rgba(167, 187, 187, 0.738) 98%)' :e.bracketVictory === 'L' ? 'linear-gradient(to right, salmon, rgba(167, 187, 187, 0.738) 98%)' : null
+                                                    background: e.bracketVictory === 'V' ? 'linear-gradient(to right, green, rgba(167, 187, 187, 0.738) 98%) padding-box, linear-gradient(to left, black,  green) border-box' :e.bracketVictory === 'L' ? 'linear-gradient(to right, red, rgba(167, 187, 187, 0.738) 98%) padding-box, linear-gradient(to left, black, red) border-box' : null
+
                                                 }}
                                                 
                                                 >{e.bracketHolder} </button>
@@ -1179,14 +1188,16 @@ const Brackets = (props) => {
             }
 
             {
-                <Link to='/TournamentsPage'>
-                    <div    className={classes.MapImage} 
+                
+                    <div    className={classes.HomeHolder} 
                             onClick={() => turnOffOngoingHandler()}
-                            style={{
-                            backgroundImage: `url(${mapImage})`
-                            
-                    }}></div>
-                </Link>
+                            ><Link style={
+                                {
+                                    textDecoration: 'none'
+                                }
+                            } to='/TournamentsPage'><div className={classes.HomeButton}>Home</div></Link>
+                    </div>
+                
             }
             
 
@@ -1194,5 +1205,14 @@ const Brackets = (props) => {
         </div>
     ) 
 }
+
+            {/* map as a button
+                
+                <div    className={classes.MapImage} 
+                                        onClick={() => turnOffOngoingHandler()}
+                                        ><Link to='/TournamentsPage'><img src={mapImage} alt='Map Image' style={{
+                                            height: '250px',
+                                            width: '250px'
+                                        }} ></img></Link></div> */}
 
 export default Brackets;
