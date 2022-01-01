@@ -11,30 +11,42 @@ const Brackets = (props) => {
     const dispatch = useDispatch();
 
     const [refresh, setRefresh] = useState(0)
-    console.log('Brackets.js refresh' + refresh)
+    
     
     let mapList = useSelector(state => state.tournamentsSlice.mapList)
     let countries = useSelector(state => state.countrySlice)
     let tournamentMap = ''
     mapList.map(e => e.name === props.name ? tournamentMap = e : null )
+
     let ongoing = tournamentMap.finished
     let mapImage = tournamentMap.pathway
 
     const countryData = useSelector( state => [...state.countrySlice])
     const dataSorted = tournamentMap.setUp;
+     console.log('[Brackets.js]  country' + tournamentMap.prelimsRound.bracketHolder) 
+
     //                                          -- Prelims --
     const [prelimStart, setPrelimStart] = useState(true)
     const [setup, setSetup] = useState(tournamentMap.setUp.length > 0)
+    
+    console.log('Brackets.js refresh' + refresh)
+
+
+
 
     if(!setup){
+        console.log('[Bracket.js]  is setup changing')
+
         dispatch(tournamentsSliceActions.setupData({
-            map: tournamentMap.name,
+            map: tournamentMap.name, 
             countryData: countryData
         }))
     }
 
 
     if(!setup && !tournamentMap.isPrelimsEloUpdated) {
+        console.log('[Brackets.js]  setup is false' ) 
+
         if(!tournamentMap.isPrelimsEloUpdated) {
             dispatch(tournamentsSliceActions.updateRoundOf16({
                 map: tournamentMap.name,
@@ -65,7 +77,7 @@ const Brackets = (props) => {
                     bracketVictory: false
                 },
                 {
-                    bracketHolder: dataSorted[11],
+                    bracketHolder: '',
                     bracketKey: 14,
                     bracketVictory: false
                 },
@@ -129,38 +141,48 @@ const Brackets = (props) => {
     
 
     useEffect(() => {
+    console.log('[Bracket.js]  use effect running? ')
+
         const PrelimCountries =   [
             {
                 country: dataSorted[12],
-                rank: 1
-            },
-            {
-                country: dataSorted[19],
-                rank: 8
-            },
-            {
-                country: dataSorted[13],
                 rank: 2
             },
             {
-                country: dataSorted[18],
-                rank: 7
+                country: dataSorted[19],
+                rank: 39
             },
             {
-                country: dataSorted[14],
+                country: dataSorted[11],
+                rank: 1
+            },
+            {
+                country: dataSorted[20],
+                rank: 40
+            },
+            {
+                country: dataSorted[13],
                 rank: 3
             },
             {
-                country: dataSorted[17],
-                rank: 6
+                country: dataSorted[18],
+                rank: 8
             },
             {
-                country: dataSorted[15],
+                country: dataSorted[14],
                 rank: 4
             },
             {
-                country: dataSorted[16],
+                country: dataSorted[17],
+                rank: 7
+            },
+            {
+                country: dataSorted[15],
                 rank: 5
+            },
+            {
+                country: dataSorted[16],
+                rank: 6
             }
         ] 
 
@@ -189,6 +211,8 @@ const Brackets = (props) => {
 
 
     const prelimVictoryHandler = (index) => {
+        console.log('[Brackets.js] victory handler' ) 
+
         dispatch(tournamentsSliceActions.prelimVictories({
             map: tournamentMap.name,
             index: index
@@ -212,6 +236,8 @@ const Brackets = (props) => {
     
     
    useEffect( () => {if(prelimsOver && !roundOf16Start) {
+    console.log('[Bracket.js]  is round of 16 rnning? ')
+
     const RoundOf16Countries = [
         {
             country: dataSorted[0],
@@ -234,7 +260,7 @@ const Brackets = (props) => {
             rank: 5
         },
         {
-            country: dataSorted[11],
+            country: '',
             rank: 12
         },
         {
@@ -281,28 +307,34 @@ const Brackets = (props) => {
         tournamentMap.prelimsRound.forEach(e => {
             if(e.bracketVictory === 'V') {
                 switch (e.bracketKey) {
-                    case 1 :
+                        case 1 :
                         RoundOf16Countries[1].country = e.bracketHolder
                         break;
-                        case 2:
+                        case 40:
                         RoundOf16Countries[1].country = e.bracketHolder
-                        break;
-                        case 3:
-                        RoundOf16Countries[7].country = e.bracketHolder
-                        break;
-                        case 4:
-                        RoundOf16Countries[7].country = e.bracketHolder
-                        break;
-                        case 5:
-                        RoundOf16Countries[11].country = e.bracketHolder
-                        break;
-                        case 6:
-                        RoundOf16Countries[11].country = e.bracketHolder
                         break;
                         case 7:
-                        RoundOf16Countries[15].country = e.bracketHolder
+                        RoundOf16Countries[5].country = e.bracketHolder
+                        break;
+                        case 4:
+                        RoundOf16Countries[5].country = e.bracketHolder
+                        break;
+                        case 5:
+                        RoundOf16Countries[7].country = e.bracketHolder
+                        break;
+                        case 6:
+                        RoundOf16Countries[7].country = e.bracketHolder
                         break;
                         case 8:
+                        RoundOf16Countries[11].country = e.bracketHolder
+                        break;
+                        case 3:
+                        RoundOf16Countries[11].country = e.bracketHolder
+                        break;
+                        case 39:
+                        RoundOf16Countries[15].country = e.bracketHolder
+                        break;
+                        case 2:
                         RoundOf16Countries[15].country = e.bracketHolder
                         break;
                     default:
@@ -397,7 +429,7 @@ const Brackets = (props) => {
         ]
         }))
     setRoundOf16Start(true)
-   }}, [prelimsOver, roundOf16Start, tournamentMap.prelimsRound, tournamentMap.name, dispatch, dataSorted, tournamentMap.roundOf16])
+   }}, [prelimsOver, roundOf16Start, tournamentMap.prelimsRound, tournamentMap.name, dispatch, tournamentMap.roundOf16, dataSorted])
 
    const roundOf16VictoryHandler = (index) => {
                 dispatch(tournamentsSliceActions.roundOf16Victories({
@@ -420,8 +452,7 @@ const Brackets = (props) => {
         tournamentMap.prelimsRound.forEach(e => allBracketsArray.push(e))
         let countriesCopy = JSON.parse(JSON.stringify(countries))
 
-        for(let i = 0; i< 7; i ++){
-            
+        for(let i = 0; i< 9; i ++){
             let winner = ''; 
             let winnerIndex = '';
             let loser = '';
@@ -671,7 +702,7 @@ const Brackets = (props) => {
             ]
          }))
      setRoundOf8Start(true)
-    }}, [roundOf16Over, roundOf8Start, tournamentMap.roundOf16, tournamentMap.name, dispatch, dataSorted, tournamentMap.roundOf8])
+    }}, [roundOf16Over, roundOf8Start, tournamentMap.roundOf16, tournamentMap.name, dispatch, tournamentMap.roundOf8])
 
     const roundOf8VictoryHandler = (index) => {
         dispatch(tournamentsSliceActions.roundOf8Victories({
@@ -775,7 +806,7 @@ const Brackets = (props) => {
             ]
          }))
      setRoundOf4Start(true)
-    }}, [roundOf8Over, roundOf4Start, tournamentMap.roundOf8, tournamentMap.roundOf4, tournamentMap.name, dispatch, dataSorted])
+    }}, [roundOf8Over, roundOf4Start, tournamentMap.roundOf8, tournamentMap.roundOf4, tournamentMap.name, dispatch])
 
 
        const roundOf4VictoryHandler = (index) => {
@@ -899,7 +930,7 @@ const Brackets = (props) => {
         }))
 
         setRoundOf2Start(true)
-    }}, [roundOf4Over, roundOf2Start, tournamentMap.roundOf4, tournamentMap.roundOf2, tournamentMap.name, dispatch, dataSorted])
+    }}, [roundOf4Over, roundOf2Start, tournamentMap.roundOf4, tournamentMap.roundOf2, tournamentMap.name, dispatch])
     
        const roundOf2VictoryHandler = (index) => {
         dispatch(tournamentsSliceActions.roundOf2Victories({
@@ -1044,6 +1075,20 @@ const Brackets = (props) => {
             }
     },[tournamentMap.prelimsRound, refresh] )
 
+    let championImage = 'Winer';
+
+    const checkWinner = () => {
+        if(tournamentMap.roundOf2[0].bracketVictory === 'V'){
+            countries.map(e => e.country === tournamentMap.roundOf2[0].bracketHolder ? championImage = championImage = <img src={e.flag} alt="WinnerFlag" /> : null)          
+        } else {
+            countries.map(e => e.country === tournamentMap.roundOf2[1].bracketHolder ? championImage = <img src={e.flag} alt="WinnerFlag" /> : null) 
+            
+        }
+    }
+        
+    if(roundOf2Over) {
+        checkWinner();
+    }
      
 
     return (
@@ -1070,7 +1115,7 @@ const Brackets = (props) => {
 
             <div className={classes.PrelimBuffer} >
                 {
-                    ['1','2','3','4'].map( (e) => {
+                    ['1','2','3','4', '5'].map( (e) => {
                         return ( <div key={e} className={classes.BufferBracket}></div>)
                     })
                 }
@@ -1182,7 +1227,7 @@ const Brackets = (props) => {
             {
                 roundOf2Over ? <div className={classes.Winner}>
                 {
-                    roundOf2Over && tournamentMap.roundOf2[0].bracketVictory === 'V' ? <div> {tournamentMap.roundOf2[0].bracketHolder} </div> :<div> {tournamentMap.roundOf2[1].bracketHolder} </div> 
+                    roundOf2Over && championImage
                 }
             </div> : null
             }
@@ -1195,7 +1240,7 @@ const Brackets = (props) => {
                                 {
                                     textDecoration: 'none'
                                 }
-                            } to='/TournamentsPage'><div className={classes.HomeButton}>Home</div></Link>
+                            } to='/'><div className={classes.HomeButton}><p className={classes.HomeFont}>Home</p></div></Link>
                     </div>
                 
             }
@@ -1206,13 +1251,5 @@ const Brackets = (props) => {
     ) 
 }
 
-            {/* map as a button
-                
-                <div    className={classes.MapImage} 
-                                        onClick={() => turnOffOngoingHandler()}
-                                        ><Link to='/TournamentsPage'><img src={mapImage} alt='Map Image' style={{
-                                            height: '250px',
-                                            width: '250px'
-                                        }} ></img></Link></div> */}
 
 export default Brackets;

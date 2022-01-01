@@ -26,6 +26,54 @@ import Sonora from '../Images/Maps/Sonora.png';
 import Texas from '../Images/Maps/Texas.png';
 import Yukon from '../Images/Maps/Yukon.png';
 
+//Asia
+import Bengal from '../Images/Maps/Bengal.png';
+import Borneo from '../Images/Maps/Borneo.png';
+import CentralPlains from '../Images/Maps/CentralPlains.png';
+import Ceylon from '../Images/Maps/Ceylon.png';
+import Deccan from '../Images/Maps/Deccan.png';
+import Himalayas from '../Images/Maps/Himalayas.png';
+import Hokkaido from '../Images/Maps/Hokkaido.png';
+import Indochina from '../Images/Maps/Indochina.png';
+import Indonesia from '../Images/Maps/Indonesia.png';
+import Honshu from '../Images/Maps/Honshu.png';
+import Kamchatka from '../Images/Maps/Kamchatka.png';
+import Korea from '../Images/Maps/Korea.png';
+import Malaysia from '../Images/Maps/Malaysia.png';
+import Manchuria from '../Images/Maps/Manchuria.png';
+import Mongolia from '../Images/Maps/Mongolia.png';
+import ParallelRivers from '../Images/Maps/ParallelRivers.png';
+import Punjab from '../Images/Maps/Punjab.png';
+import Siberia from '../Images/Maps/Siberia.png';
+import SilkRoad from '../Images/Maps/SilkRoad.png';
+import YellowRiver from '../Images/Maps/YellowRiver.png';
+
+//SA
+
+// import MinaGerais from '../Images/Maps/MinaGerais.png';
+// import Bahia from '../Images/Maps/Bahia.png';
+
+
+//Africa
+// import Atlas from '../Images/Maps/Atlas.png';
+// import Darfur from '../Images/Maps/Darfur.png';
+// import GoldCoast from '../Images/Maps/GoldCoast.png';
+// import GreatRift from '../Images/Maps/GreatRift.png';
+// import Highlands from '../Images/Maps/Highlands.png';
+// import Horn from '../Images/Maps/Horn.png';
+// import LakeChad from '../Images/Maps/LakeChad.png';
+// import NigerDelta from '../Images/Maps/NigerDelta.png';
+// import NigerRiver from '../Images/Maps/NigerRiver.png';
+// import NileValley from '../Images/Maps/NileValley.png';
+// import PepperCoast from '../Images/Maps/PepperCoast.png';
+// import Savanna from '../Images/Maps/Savanna.png';
+// import Sudd from '../Images/Maps/Sudd.png';
+// import Tassili from '../Images/Maps/Tassili.png';
+// import Tripolitania from '../Images/Maps/Tripolitania.png';
+// import SiwaOasis from '../Images/Maps/SiwaOasis.png';
+
+
+
 
 const initialState = {
     mapList: [
@@ -35,47 +83,57 @@ const initialState = {
                         finished: false,
                         setUp: [],
                         prelimsRound: [
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 1,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 2,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 3,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 4,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 5,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 6,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 7,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 8,
-                                            bracketVictory: false
-                                        }
-                        ],
+                            {
+                                bracketHolder: '',
+                                bracketKey: 1,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 40,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 4,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 7,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 5,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 6,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 8,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 3,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 39,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 2,
+                                bracketVictory: false
+                            }
+            ],
                         roundOf16: [
                                     {
                                         bracketHolder: '',
@@ -249,47 +307,57 @@ const initialState = {
                         finished: false,
                         setUp: [],
                         prelimsRound: [
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 1,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 2,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 3,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 4,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 5,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 6,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 7,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 8,
-                                            bracketVictory: false
-                                        }
-                        ],
+                            {
+                                bracketHolder: '',
+                                bracketKey: 1,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 40,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 4,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 7,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 5,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 6,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 8,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 3,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 39,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 2,
+                                bracketVictory: false
+                            }
+            ],
                         roundOf16: [
                                     {
                                         bracketHolder: '',
@@ -463,47 +531,57 @@ const initialState = {
                         finished: false,
                         setUp: [],
                         prelimsRound: [
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 1,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 2,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 3,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 4,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 5,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 6,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 7,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 8,
-                                            bracketVictory: false
-                                        }
-                        ],
+                            {
+                                bracketHolder: '',
+                                bracketKey: 1,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 40,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 4,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 7,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 5,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 6,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 8,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 3,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 39,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 2,
+                                bracketVictory: false
+                            }
+            ],
                         roundOf16: [
                                     {
                                         bracketHolder: '',
@@ -677,47 +755,57 @@ const initialState = {
                         finished: false,
                         setUp: [],
                         prelimsRound: [
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 1,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 2,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 3,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 4,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 5,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 6,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 7,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 8,
-                                            bracketVictory: false
-                                        }
-                        ],
+                            {
+                                bracketHolder: '',
+                                bracketKey: 1,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 40,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 4,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 7,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 5,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 6,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 8,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 3,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 39,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 2,
+                                bracketVictory: false
+                            }
+            ],
                         roundOf16: [
                                     {
                                         bracketHolder: '',
@@ -891,47 +979,57 @@ const initialState = {
                         finished: false,
                         setUp: [],
                         prelimsRound: [
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 1,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 2,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 3,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 4,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 5,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 6,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 7,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 8,
-                                            bracketVictory: false
-                                        }
-                        ],
+                            {
+                                bracketHolder: '',
+                                bracketKey: 1,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 40,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 4,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 7,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 5,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 6,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 8,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 3,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 39,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 2,
+                                bracketVictory: false
+                            }
+            ],
                         roundOf16: [
                                     {
                                         bracketHolder: '',
@@ -1105,47 +1203,57 @@ const initialState = {
                         finished: false,
                         setUp: [],
                         prelimsRound: [
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 1,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 2,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 3,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 4,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 5,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 6,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 7,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 8,
-                                            bracketVictory: false
-                                        }
-                        ],
+                            {
+                                bracketHolder: '',
+                                bracketKey: 1,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 40,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 4,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 7,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 5,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 6,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 8,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 3,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 39,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 2,
+                                bracketVictory: false
+                            }
+            ],
                         roundOf16: [
                                     {
                                         bracketHolder: '',
@@ -1319,47 +1427,57 @@ const initialState = {
                         finished: false,
                         setUp: [],
                         prelimsRound: [
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 1,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 2,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 3,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 4,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 5,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 6,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 7,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 8,
-                                            bracketVictory: false
-                                        }
-                        ],
+                            {
+                                bracketHolder: '',
+                                bracketKey: 1,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 40,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 4,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 7,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 5,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 6,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 8,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 3,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 39,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 2,
+                                bracketVictory: false
+                            }
+            ],
                         roundOf16: [
                                     {
                                         bracketHolder: '',
@@ -1533,47 +1651,57 @@ const initialState = {
                         finished: false,
                         setUp: [],
                         prelimsRound: [
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 1,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 2,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 3,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 4,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 5,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 6,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 7,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 8,
-                                            bracketVictory: false
-                                        }
-                        ],   
+                            {
+                                bracketHolder: '',
+                                bracketKey: 1,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 40,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 4,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 7,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 5,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 6,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 8,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 3,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 39,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 2,
+                                bracketVictory: false
+                            }
+            ], 
                         roundOf16: [
                                     {
                                         bracketHolder: '',
@@ -1747,48 +1875,58 @@ const initialState = {
                         finished: false,
                         setUp: [],
                         prelimsRound: [
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 1,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 2,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 3,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 4,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 5,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 6,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 7,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 8,
-                                            bracketVictory: false
-                                        }
-                        ]
-                    ,   roundOf16: [
+                            {
+                                bracketHolder: '',
+                                bracketKey: 1,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 40,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 4,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 7,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 5,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 6,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 8,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 3,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 39,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 2,
+                                bracketVictory: false
+                            }
+            ],
+                       roundOf16: [
                                     {
                                         bracketHolder: '',
                                         bracketKey: 9,
@@ -1961,47 +2099,57 @@ const initialState = {
                         finished: false,
                         setUp: [],
                         prelimsRound: [
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 1,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 2,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 3,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 4,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 5,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 6,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 7,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 8,
-                                            bracketVictory: false
-                                        }
-                        ],
+                            {
+                                bracketHolder: '',
+                                bracketKey: 1,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 40,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 4,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 7,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 5,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 6,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 8,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 3,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 39,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 2,
+                                bracketVictory: false
+                            }
+            ],
                         roundOf16: [
                                     {
                                         bracketHolder: '',
@@ -2175,47 +2323,57 @@ const initialState = {
                         finished: false,
                         setUp: [],
                         prelimsRound: [
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 1,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 2,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 3,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 4,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 5,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 6,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 7,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 8,
-                                            bracketVictory: false
-                                        }
-                        ],   
+                            {
+                                bracketHolder: '',
+                                bracketKey: 1,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 40,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 4,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 7,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 5,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 6,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 8,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 3,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 39,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 2,
+                                bracketVictory: false
+                            }
+            ],  
                         roundOf16: [
                                     {
                                         bracketHolder: '',
@@ -2389,47 +2547,57 @@ const initialState = {
                         finished: false,
                         setUp: [],
                         prelimsRound: [
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 1,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 2,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 3,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 4,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 5,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 6,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 7,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 8,
-                                            bracketVictory: false
-                                        }
-                        ],
+                            {
+                                bracketHolder: '',
+                                bracketKey: 1,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 40,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 4,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 7,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 5,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 6,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 8,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 3,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 39,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 2,
+                                bracketVictory: false
+                            }
+            ],
                         roundOf16: [
                                     {
                                         bracketHolder: '',
@@ -2603,47 +2771,57 @@ const initialState = {
                         finished: false,
                         setUp: [],
                         prelimsRound: [
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 1,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 2,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 3,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 4,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 5,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 6,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 7,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 8,
-                                            bracketVictory: false
-                                        }
-                        ],   
+                            {
+                                bracketHolder: '',
+                                bracketKey: 1,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 40,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 4,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 7,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 5,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 6,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 8,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 3,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 39,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 2,
+                                bracketVictory: false
+                            }
+            ],   
                         roundOf16: [
                                     {
                                         bracketHolder: '',
@@ -2816,47 +2994,57 @@ const initialState = {
                         finished: false,
                         setUp: [],
                         prelimsRound: [
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 1,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 2,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 3,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 4,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 5,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 6,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 7,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 8,
-                                            bracketVictory: false
-                                        }
-                        ],   
+                            {
+                                bracketHolder: '',
+                                bracketKey: 1,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 40,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 4,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 7,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 5,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 6,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 8,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 3,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 39,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 2,
+                                bracketVictory: false
+                            }
+            ],   
                         roundOf16: [
                                     {
                                         bracketHolder: '',
@@ -3030,47 +3218,57 @@ const initialState = {
                         finished: false,
                         setUp: [],
                         prelimsRound: [
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 1,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 2,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 3,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 4,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 5,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 6,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 7,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 8,
-                                            bracketVictory: false
-                                        }
-                        ],   
+                            {
+                                bracketHolder: '',
+                                bracketKey: 1,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 40,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 4,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 7,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 5,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 6,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 8,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 3,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 39,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 2,
+                                bracketVictory: false
+                            }
+            ],   
                         roundOf16: [
                                     {
                                         bracketHolder: '',
@@ -3244,47 +3442,57 @@ const initialState = {
                         finished: false,
                         setUp: [],
                         prelimsRound: [
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 1,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 2,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 3,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 4,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 5,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 6,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 7,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 8,
-                                            bracketVictory: false
-                                        }
-                        ],   
+                            {
+                                bracketHolder: '',
+                                bracketKey: 1,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 40,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 4,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 7,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 5,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 6,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 8,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 3,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 39,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 2,
+                                bracketVictory: false
+                            }
+            ],   
                         roundOf16: [
                                     {
                                         bracketHolder: '',
@@ -3458,47 +3666,57 @@ const initialState = {
                         finished: false,
                         setUp: [],
                         prelimsRound: [
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 1,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 2,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 3,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 4,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 5,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 6,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 7,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 8,
-                                            bracketVictory: false
-                                        }
-                        ],   
+                            {
+                                bracketHolder: '',
+                                bracketKey: 1,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 40,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 4,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 7,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 5,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 6,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 8,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 3,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 39,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 2,
+                                bracketVictory: false
+                            }
+            ],   
                         roundOf16: [
                                     {
                                         bracketHolder: '',
@@ -3672,47 +3890,57 @@ const initialState = {
                         finished: false,
                         setUp: [],
                         prelimsRound: [
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 1,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 2,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 3,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 4,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 5,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 6,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 7,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 8,
-                                            bracketVictory: false
-                                        }
-                        ],   
+                            {
+                                bracketHolder: '',
+                                bracketKey: 1,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 40,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 4,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 7,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 5,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 6,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 8,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 3,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 39,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 2,
+                                bracketVictory: false
+                            }
+            ],   
                         roundOf16: [
                                     {
                                         bracketHolder: '',
@@ -3886,47 +4114,57 @@ const initialState = {
                         finished: false,
                         setUp: [],
                         prelimsRound: [
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 1,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 2,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 3,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 4,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 5,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 6,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 7,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 8,
-                                            bracketVictory: false
-                                        }
-                        ],
+                            {
+                                bracketHolder: '',
+                                bracketKey: 1,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 40,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 4,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 7,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 5,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 6,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 8,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 3,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 39,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 2,
+                                bracketVictory: false
+                            }
+            ],
                         roundOf16: [
                                     {
                                         bracketHolder: '',
@@ -4100,47 +4338,57 @@ const initialState = {
                         finished: false,
                         setUp: [],
                         prelimsRound: [
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 1,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 2,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 3,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 4,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 5,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 6,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 7,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 8,
-                                            bracketVictory: false
-                                        }
-                        ], 
+                            {
+                                bracketHolder: '',
+                                bracketKey: 1,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 40,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 4,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 7,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 5,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 6,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 8,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 3,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 39,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 2,
+                                bracketVictory: false
+                            }
+            ],
                         roundOf16: [
                                     {
                                         bracketHolder: '',
@@ -4314,47 +4562,57 @@ const initialState = {
                         finished: false,
                         setUp: [],
                         prelimsRound: [
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 1,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 2,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 3,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 4,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 5,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 6,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 7,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 8,
-                                            bracketVictory: false
-                                        }
-                        ],
+                            {
+                                bracketHolder: '',
+                                bracketKey: 1,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 40,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 4,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 7,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 5,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 6,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 8,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 3,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 39,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 2,
+                                bracketVictory: false
+                            }
+            ],
                         roundOf16: [
                                     {
                                         bracketHolder: '',
@@ -4528,47 +4786,57 @@ const initialState = {
                         finished: false,
                         setUp: [],
                         prelimsRound: [
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 1,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 2,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 3,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 4,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 5,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 6,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 7,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 8,
-                                            bracketVictory: false
-                                        }
-                        ],
+                            {
+                                bracketHolder: '',
+                                bracketKey: 1,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 40,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 4,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 7,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 5,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 6,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 8,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 3,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 39,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 2,
+                                bracketVictory: false
+                            }
+            ],
                         roundOf16: [
                                     {
                                         bracketHolder: '',
@@ -4742,47 +5010,57 @@ const initialState = {
                         finished: false,
                         setUp: [],
                         prelimsRound: [
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 1,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 2,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 3,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 4,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 5,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 6,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 7,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 8,
-                                            bracketVictory: false
-                                        }
-                        ],   
+                            {
+                                bracketHolder: '',
+                                bracketKey: 1,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 40,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 4,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 7,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 5,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 6,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 8,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 3,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 39,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 2,
+                                bracketVictory: false
+                            }
+            ],  
                         roundOf16: [
                                     {
                                         bracketHolder: '',
@@ -4956,47 +5234,57 @@ const initialState = {
                         finished: false,
                         setUp: [],
                         prelimsRound: [
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 1,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 2,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 3,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 4,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 5,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 6,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 7,
-                                            bracketVictory: false
-                                        },
-                                        {
-                                            bracketHolder: '',
-                                            bracketKey: 8,
-                                            bracketVictory: false
-                                        }
-                        ],   
+                            {
+                                bracketHolder: '',
+                                bracketKey: 1,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 40,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 4,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 7,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 5,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 6,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 8,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 3,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 39,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 2,
+                                bracketVictory: false
+                            }
+            ],  
                         roundOf16: [
                                     {
                                         bracketHolder: '',
@@ -5164,6 +5452,4486 @@ const initialState = {
                         isRoundOf4EloUpdated: false,
                         isRoundOf2EloUpdated: false
                     },
+                    {
+                        name: 'Bengal',
+                        pathway: Bengal,
+                        finished: false,
+                        setUp: [],
+                        prelimsRound: [
+                            {
+                                bracketHolder: '',
+                                bracketKey: 1,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 40,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 4,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 7,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 5,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 6,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 8,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 3,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 39,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 2,
+                                bracketVictory: false
+                            }
+            ],
+                        roundOf16: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 9,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 10,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 11,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 12,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 13,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 14,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 15,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 16,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 17,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 18,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 19,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 20,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 21,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 22,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 23,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 24,
+                                            bracketVictory: false
+                                        }
+
+                        ],  
+                        roundOf8: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 25,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 26,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 27,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 28,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 29,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 30,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 31,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 32,
+                                            bracketVictory: false
+                                        }
+                        ],
+                        roundOf4: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 33,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 34,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 35,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 36,
+                                            bracketVictory: false
+                                        },
+        
+                        ],
+                        roundOf2: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 37,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 38,
+                                            bracketVictory: false
+                                        }
+                        ],
+                        champion: '',
+                        isPrelimsEloUpdated: false,
+                        isRoundOf16EloUpdated: false,
+                        isRoundOf8EloUpdated: false,
+                        isRoundOf4EloUpdated: false,
+                        isRoundOf2EloUpdated: false
+                    },
+                    {
+                        name: 'Borneo',
+                        pathway: Borneo,
+                        finished: false,
+                        setUp: [],
+                        prelimsRound: [
+                            {
+                                bracketHolder: '',
+                                bracketKey: 1,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 40,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 4,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 7,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 5,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 6,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 8,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 3,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 39,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 2,
+                                bracketVictory: false
+                            }
+            ],
+                        roundOf16: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 9,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 10,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 11,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 12,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 13,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 14,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 15,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 16,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 17,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 18,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 19,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 20,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 21,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 22,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 23,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 24,
+                                            bracketVictory: false
+                                        }
+
+                        ],  
+                        roundOf8: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 25,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 26,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 27,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 28,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 29,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 30,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 31,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 32,
+                                            bracketVictory: false
+                                        }
+                        ],
+                        roundOf4: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 33,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 34,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 35,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 36,
+                                            bracketVictory: false
+                                        },
+        
+                        ],
+                        roundOf2: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 37,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 38,
+                                            bracketVictory: false
+                                        }
+                        ],
+                        champion: '',
+                        isPrelimsEloUpdated: false,
+                        isRoundOf16EloUpdated: false,
+                        isRoundOf8EloUpdated: false,
+                        isRoundOf4EloUpdated: false,
+                        isRoundOf2EloUpdated: false
+                    },
+                    {
+                        name: 'CentralPlains',
+                        pathway: CentralPlains,
+                        finished: false,
+                        setUp: [],
+                        prelimsRound: [
+                            {
+                                bracketHolder: '',
+                                bracketKey: 1,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 40,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 4,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 7,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 5,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 6,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 8,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 3,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 39,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 2,
+                                bracketVictory: false
+                            }
+            ],
+                        roundOf16: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 9,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 10,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 11,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 12,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 13,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 14,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 15,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 16,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 17,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 18,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 19,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 20,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 21,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 22,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 23,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 24,
+                                            bracketVictory: false
+                                        }
+
+                        ],  
+                        roundOf8: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 25,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 26,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 27,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 28,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 29,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 30,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 31,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 32,
+                                            bracketVictory: false
+                                        }
+                        ],
+                        roundOf4: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 33,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 34,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 35,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 36,
+                                            bracketVictory: false
+                                        },
+        
+                        ],
+                        roundOf2: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 37,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 38,
+                                            bracketVictory: false
+                                        }
+                        ],
+                        champion: '',
+                        isPrelimsEloUpdated: false,
+                        isRoundOf16EloUpdated: false,
+                        isRoundOf8EloUpdated: false,
+                        isRoundOf4EloUpdated: false,
+                        isRoundOf2EloUpdated: false
+                    },
+                    {
+                        name: 'Ceylon',
+                        pathway: Ceylon,
+                        finished: false,
+                        setUp: [],
+                        prelimsRound: [
+                            {
+                                bracketHolder: '',
+                                bracketKey: 1,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 40,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 4,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 7,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 5,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 6,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 8,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 3,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 39,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 2,
+                                bracketVictory: false
+                            }
+            ],
+                        roundOf16: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 9,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 10,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 11,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 12,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 13,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 14,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 15,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 16,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 17,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 18,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 19,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 20,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 21,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 22,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 23,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 24,
+                                            bracketVictory: false
+                                        }
+
+                        ],  
+                        roundOf8: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 25,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 26,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 27,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 28,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 29,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 30,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 31,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 32,
+                                            bracketVictory: false
+                                        }
+                        ],
+                        roundOf4: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 33,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 34,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 35,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 36,
+                                            bracketVictory: false
+                                        },
+        
+                        ],
+                        roundOf2: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 37,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 38,
+                                            bracketVictory: false
+                                        }
+                        ],
+                        champion: '',
+                        isPrelimsEloUpdated: false,
+                        isRoundOf16EloUpdated: false,
+                        isRoundOf8EloUpdated: false,
+                        isRoundOf4EloUpdated: false,
+                        isRoundOf2EloUpdated: false
+                    },
+                    {
+                        name: 'Deccan',
+                        pathway: Deccan,
+                        finished: false,
+                        setUp: [],
+                        prelimsRound: [
+                            {
+                                bracketHolder: '',
+                                bracketKey: 1,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 40,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 4,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 7,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 5,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 6,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 8,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 3,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 39,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 2,
+                                bracketVictory: false
+                            }
+            ],
+                        roundOf16: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 9,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 10,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 11,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 12,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 13,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 14,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 15,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 16,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 17,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 18,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 19,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 20,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 21,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 22,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 23,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 24,
+                                            bracketVictory: false
+                                        }
+
+                        ],  
+                        roundOf8: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 25,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 26,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 27,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 28,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 29,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 30,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 31,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 32,
+                                            bracketVictory: false
+                                        }
+                        ],
+                        roundOf4: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 33,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 34,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 35,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 36,
+                                            bracketVictory: false
+                                        },
+        
+                        ],
+                        roundOf2: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 37,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 38,
+                                            bracketVictory: false
+                                        }
+                        ],
+                        champion: '',
+                        isPrelimsEloUpdated: false,
+                        isRoundOf16EloUpdated: false,
+                        isRoundOf8EloUpdated: false,
+                        isRoundOf4EloUpdated: false,
+                        isRoundOf2EloUpdated: false
+                    },
+                    {
+                        name: 'Himalayas',
+                        pathway: Himalayas,
+                        finished: false,
+                        setUp: [],
+                        prelimsRound: [
+                            {
+                                bracketHolder: '',
+                                bracketKey: 1,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 40,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 4,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 7,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 5,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 6,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 8,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 3,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 39,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 2,
+                                bracketVictory: false
+                            }
+            ],
+                        roundOf16: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 9,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 10,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 11,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 12,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 13,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 14,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 15,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 16,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 17,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 18,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 19,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 20,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 21,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 22,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 23,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 24,
+                                            bracketVictory: false
+                                        }
+
+                        ],  
+                        roundOf8: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 25,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 26,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 27,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 28,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 29,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 30,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 31,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 32,
+                                            bracketVictory: false
+                                        }
+                        ],
+                        roundOf4: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 33,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 34,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 35,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 36,
+                                            bracketVictory: false
+                                        },
+        
+                        ],
+                        roundOf2: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 37,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 38,
+                                            bracketVictory: false
+                                        }
+                        ],
+                        champion: '',
+                        isPrelimsEloUpdated: false,
+                        isRoundOf16EloUpdated: false,
+                        isRoundOf8EloUpdated: false,
+                        isRoundOf4EloUpdated: false,
+                        isRoundOf2EloUpdated: false
+                    },
+                    {
+                        name: 'Hokkaido',
+                        pathway: Hokkaido,
+                        finished: false,
+                        setUp: [],
+                        prelimsRound: [
+                            {
+                                bracketHolder: '',
+                                bracketKey: 1,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 40,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 4,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 7,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 5,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 6,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 8,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 3,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 39,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 2,
+                                bracketVictory: false
+                            }
+            ],
+                        roundOf16: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 9,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 10,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 11,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 12,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 13,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 14,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 15,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 16,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 17,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 18,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 19,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 20,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 21,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 22,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 23,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 24,
+                                            bracketVictory: false
+                                        }
+
+                        ],  
+                        roundOf8: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 25,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 26,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 27,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 28,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 29,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 30,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 31,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 32,
+                                            bracketVictory: false
+                                        }
+                        ],
+                        roundOf4: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 33,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 34,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 35,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 36,
+                                            bracketVictory: false
+                                        },
+        
+                        ],
+                        roundOf2: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 37,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 38,
+                                            bracketVictory: false
+                                        }
+                        ],
+                        champion: '',
+                        isPrelimsEloUpdated: false,
+                        isRoundOf16EloUpdated: false,
+                        isRoundOf8EloUpdated: false,
+                        isRoundOf4EloUpdated: false,
+                        isRoundOf2EloUpdated: false
+                    },
+                    {
+                        name: 'Indochina',
+                        pathway: Indochina,
+                        finished: false,
+                        setUp: [],
+                        prelimsRound: [
+                            {
+                                bracketHolder: '',
+                                bracketKey: 1,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 40,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 4,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 7,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 5,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 6,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 8,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 3,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 39,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 2,
+                                bracketVictory: false
+                            }
+            ],
+                        roundOf16: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 9,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 10,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 11,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 12,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 13,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 14,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 15,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 16,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 17,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 18,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 19,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 20,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 21,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 22,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 23,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 24,
+                                            bracketVictory: false
+                                        }
+
+                        ],  
+                        roundOf8: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 25,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 26,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 27,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 28,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 29,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 30,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 31,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 32,
+                                            bracketVictory: false
+                                        }
+                        ],
+                        roundOf4: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 33,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 34,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 35,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 36,
+                                            bracketVictory: false
+                                        },
+        
+                        ],
+                        roundOf2: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 37,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 38,
+                                            bracketVictory: false
+                                        }
+                        ],
+                        champion: '',
+                        isPrelimsEloUpdated: false,
+                        isRoundOf16EloUpdated: false,
+                        isRoundOf8EloUpdated: false,
+                        isRoundOf4EloUpdated: false,
+                        isRoundOf2EloUpdated: false
+                    },
+                    {
+                        name: 'Indonesia',
+                        pathway: Indonesia,
+                        finished: false,
+                        setUp: [],
+                        prelimsRound: [
+                            {
+                                bracketHolder: '',
+                                bracketKey: 1,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 40,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 4,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 7,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 5,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 6,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 8,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 3,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 39,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 2,
+                                bracketVictory: false
+                            }
+            ],
+                        roundOf16: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 9,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 10,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 11,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 12,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 13,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 14,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 15,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 16,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 17,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 18,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 19,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 20,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 21,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 22,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 23,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 24,
+                                            bracketVictory: false
+                                        }
+
+                        ],  
+                        roundOf8: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 25,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 26,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 27,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 28,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 29,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 30,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 31,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 32,
+                                            bracketVictory: false
+                                        }
+                        ],
+                        roundOf4: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 33,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 34,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 35,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 36,
+                                            bracketVictory: false
+                                        },
+        
+                        ],
+                        roundOf2: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 37,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 38,
+                                            bracketVictory: false
+                                        }
+                        ],
+                        champion: '',
+                        isPrelimsEloUpdated: false,
+                        isRoundOf16EloUpdated: false,
+                        isRoundOf8EloUpdated: false,
+                        isRoundOf4EloUpdated: false,
+                        isRoundOf2EloUpdated: false
+                    },
+                    {
+                        name: 'Honshu',
+                        pathway: Honshu,
+                        finished: false,
+                        setUp: [],
+                        prelimsRound: [
+                            {
+                                bracketHolder: '',
+                                bracketKey: 1,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 40,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 4,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 7,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 5,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 6,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 8,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 3,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 39,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 2,
+                                bracketVictory: false
+                            }
+            ],
+                        roundOf16: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 9,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 10,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 11,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 12,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 13,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 14,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 15,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 16,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 17,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 18,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 19,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 20,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 21,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 22,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 23,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 24,
+                                            bracketVictory: false
+                                        }
+
+                        ],  
+                        roundOf8: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 25,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 26,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 27,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 28,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 29,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 30,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 31,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 32,
+                                            bracketVictory: false
+                                        }
+                        ],
+                        roundOf4: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 33,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 34,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 35,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 36,
+                                            bracketVictory: false
+                                        },
+        
+                        ],
+                        roundOf2: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 37,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 38,
+                                            bracketVictory: false
+                                        }
+                        ],
+                        champion: '',
+                        isPrelimsEloUpdated: false,
+                        isRoundOf16EloUpdated: false,
+                        isRoundOf8EloUpdated: false,
+                        isRoundOf4EloUpdated: false,
+                        isRoundOf2EloUpdated: false
+                    },
+                    {
+                        name: 'Kamchatka',
+                        pathway: Kamchatka,
+                        finished: false,
+                        setUp: [],
+                        prelimsRound: [
+                            {
+                                bracketHolder: '',
+                                bracketKey: 1,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 40,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 4,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 7,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 5,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 6,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 8,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 3,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 39,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 2,
+                                bracketVictory: false
+                            }
+            ],
+                        roundOf16: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 9,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 10,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 11,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 12,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 13,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 14,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 15,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 16,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 17,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 18,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 19,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 20,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 21,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 22,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 23,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 24,
+                                            bracketVictory: false
+                                        }
+
+                        ],  
+                        roundOf8: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 25,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 26,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 27,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 28,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 29,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 30,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 31,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 32,
+                                            bracketVictory: false
+                                        }
+                        ],
+                        roundOf4: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 33,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 34,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 35,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 36,
+                                            bracketVictory: false
+                                        },
+        
+                        ],
+                        roundOf2: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 37,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 38,
+                                            bracketVictory: false
+                                        }
+                        ],
+                        champion: '',
+                        isPrelimsEloUpdated: false,
+                        isRoundOf16EloUpdated: false,
+                        isRoundOf8EloUpdated: false,
+                        isRoundOf4EloUpdated: false,
+                        isRoundOf2EloUpdated: false
+                    },
+                    {
+                        name: 'Korea',
+                        pathway: Korea,
+                        finished: false,
+                        setUp: [],
+                        prelimsRound: [
+                            {
+                                bracketHolder: '',
+                                bracketKey: 1,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 40,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 4,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 7,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 5,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 6,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 8,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 3,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 39,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 2,
+                                bracketVictory: false
+                            }
+            ],
+                        roundOf16: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 9,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 10,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 11,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 12,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 13,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 14,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 15,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 16,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 17,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 18,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 19,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 20,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 21,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 22,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 23,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 24,
+                                            bracketVictory: false
+                                        }
+
+                        ],  
+                        roundOf8: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 25,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 26,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 27,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 28,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 29,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 30,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 31,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 32,
+                                            bracketVictory: false
+                                        }
+                        ],
+                        roundOf4: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 33,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 34,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 35,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 36,
+                                            bracketVictory: false
+                                        },
+        
+                        ],
+                        roundOf2: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 37,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 38,
+                                            bracketVictory: false
+                                        }
+                        ],
+                        champion: '',
+                        isPrelimsEloUpdated: false,
+                        isRoundOf16EloUpdated: false,
+                        isRoundOf8EloUpdated: false,
+                        isRoundOf4EloUpdated: false,
+                        isRoundOf2EloUpdated: false
+                    },
+                    {
+                        name: 'Malaysia',
+                        pathway: Malaysia,
+                        finished: false,
+                        setUp: [],
+                        prelimsRound: [
+                            {
+                                bracketHolder: '',
+                                bracketKey: 1,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 40,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 4,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 7,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 5,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 6,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 8,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 3,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 39,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 2,
+                                bracketVictory: false
+                            }
+            ],
+                        roundOf16: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 9,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 10,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 11,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 12,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 13,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 14,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 15,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 16,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 17,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 18,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 19,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 20,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 21,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 22,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 23,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 24,
+                                            bracketVictory: false
+                                        }
+
+                        ],  
+                        roundOf8: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 25,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 26,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 27,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 28,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 29,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 30,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 31,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 32,
+                                            bracketVictory: false
+                                        }
+                        ],
+                        roundOf4: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 33,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 34,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 35,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 36,
+                                            bracketVictory: false
+                                        },
+        
+                        ],
+                        roundOf2: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 37,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 38,
+                                            bracketVictory: false
+                                        }
+                        ],
+                        champion: '',
+                        isPrelimsEloUpdated: false,
+                        isRoundOf16EloUpdated: false,
+                        isRoundOf8EloUpdated: false,
+                        isRoundOf4EloUpdated: false,
+                        isRoundOf2EloUpdated: false
+                    },
+                    {
+                        name: 'Manchuria',
+                        pathway: Manchuria,
+                        finished: false,
+                        setUp: [],
+                        prelimsRound: [
+                            {
+                                bracketHolder: '',
+                                bracketKey: 1,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 40,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 4,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 7,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 5,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 6,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 8,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 3,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 39,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 2,
+                                bracketVictory: false
+                            }
+            ],
+                        roundOf16: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 9,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 10,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 11,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 12,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 13,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 14,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 15,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 16,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 17,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 18,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 19,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 20,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 21,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 22,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 23,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 24,
+                                            bracketVictory: false
+                                        }
+
+                        ],  
+                        roundOf8: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 25,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 26,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 27,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 28,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 29,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 30,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 31,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 32,
+                                            bracketVictory: false
+                                        }
+                        ],
+                        roundOf4: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 33,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 34,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 35,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 36,
+                                            bracketVictory: false
+                                        },
+        
+                        ],
+                        roundOf2: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 37,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 38,
+                                            bracketVictory: false
+                                        }
+                        ],
+                        champion: '',
+                        isPrelimsEloUpdated: false,
+                        isRoundOf16EloUpdated: false,
+                        isRoundOf8EloUpdated: false,
+                        isRoundOf4EloUpdated: false,
+                        isRoundOf2EloUpdated: false
+                    },
+                    {
+                        name: 'Mongolia',
+                        pathway: Mongolia,
+                        finished: false,
+                        setUp: [],
+                        prelimsRound: [
+                            {
+                                bracketHolder: '',
+                                bracketKey: 1,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 40,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 4,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 7,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 5,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 6,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 8,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 3,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 39,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 2,
+                                bracketVictory: false
+                            }
+            ],
+                        roundOf16: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 9,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 10,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 11,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 12,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 13,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 14,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 15,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 16,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 17,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 18,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 19,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 20,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 21,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 22,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 23,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 24,
+                                            bracketVictory: false
+                                        }
+
+                        ],  
+                        roundOf8: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 25,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 26,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 27,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 28,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 29,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 30,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 31,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 32,
+                                            bracketVictory: false
+                                        }
+                        ],
+                        roundOf4: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 33,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 34,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 35,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 36,
+                                            bracketVictory: false
+                                        },
+        
+                        ],
+                        roundOf2: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 37,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 38,
+                                            bracketVictory: false
+                                        }
+                        ],
+                        champion: '',
+                        isPrelimsEloUpdated: false,
+                        isRoundOf16EloUpdated: false,
+                        isRoundOf8EloUpdated: false,
+                        isRoundOf4EloUpdated: false,
+                        isRoundOf2EloUpdated: false
+                    },
+                    {
+                        name: 'ParallelRivers',
+                        pathway: ParallelRivers,
+                        finished: false,
+                        setUp: [],
+                        prelimsRound: [
+                            {
+                                bracketHolder: '',
+                                bracketKey: 1,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 40,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 4,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 7,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 5,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 6,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 8,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 3,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 39,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 2,
+                                bracketVictory: false
+                            }
+            ],
+                        roundOf16: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 9,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 10,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 11,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 12,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 13,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 14,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 15,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 16,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 17,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 18,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 19,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 20,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 21,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 22,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 23,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 24,
+                                            bracketVictory: false
+                                        }
+
+                        ],  
+                        roundOf8: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 25,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 26,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 27,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 28,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 29,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 30,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 31,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 32,
+                                            bracketVictory: false
+                                        }
+                        ],
+                        roundOf4: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 33,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 34,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 35,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 36,
+                                            bracketVictory: false
+                                        },
+        
+                        ],
+                        roundOf2: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 37,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 38,
+                                            bracketVictory: false
+                                        }
+                        ],
+                        champion: '',
+                        isPrelimsEloUpdated: false,
+                        isRoundOf16EloUpdated: false,
+                        isRoundOf8EloUpdated: false,
+                        isRoundOf4EloUpdated: false,
+                        isRoundOf2EloUpdated: false
+                    },
+                    {
+                        name: 'Punjab',
+                        pathway: Punjab,
+                        finished: false,
+                        setUp: [],
+                        prelimsRound: [
+                            {
+                                bracketHolder: '',
+                                bracketKey: 1,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 40,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 4,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 7,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 5,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 6,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 8,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 3,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 39,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 2,
+                                bracketVictory: false
+                            }
+            ],
+                        roundOf16: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 9,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 10,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 11,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 12,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 13,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 14,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 15,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 16,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 17,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 18,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 19,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 20,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 21,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 22,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 23,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 24,
+                                            bracketVictory: false
+                                        }
+
+                        ],  
+                        roundOf8: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 25,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 26,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 27,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 28,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 29,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 30,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 31,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 32,
+                                            bracketVictory: false
+                                        }
+                        ],
+                        roundOf4: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 33,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 34,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 35,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 36,
+                                            bracketVictory: false
+                                        },
+        
+                        ],
+                        roundOf2: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 37,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 38,
+                                            bracketVictory: false
+                                        }
+                        ],
+                        champion: '',
+                        isPrelimsEloUpdated: false,
+                        isRoundOf16EloUpdated: false,
+                        isRoundOf8EloUpdated: false,
+                        isRoundOf4EloUpdated: false,
+                        isRoundOf2EloUpdated: false
+                    },
+                    {
+                        name: 'Siberia',
+                        pathway: Siberia,
+                        finished: false,
+                        setUp: [],
+                        prelimsRound: [
+                            {
+                                bracketHolder: '',
+                                bracketKey: 1,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 40,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 4,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 7,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 5,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 6,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 8,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 3,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 39,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 2,
+                                bracketVictory: false
+                            }
+            ],
+                        roundOf16: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 9,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 10,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 11,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 12,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 13,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 14,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 15,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 16,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 17,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 18,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 19,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 20,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 21,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 22,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 23,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 24,
+                                            bracketVictory: false
+                                        }
+
+                        ],  
+                        roundOf8: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 25,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 26,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 27,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 28,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 29,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 30,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 31,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 32,
+                                            bracketVictory: false
+                                        }
+                        ],
+                        roundOf4: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 33,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 34,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 35,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 36,
+                                            bracketVictory: false
+                                        },
+        
+                        ],
+                        roundOf2: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 37,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 38,
+                                            bracketVictory: false
+                                        }
+                        ],
+                        champion: '',
+                        isPrelimsEloUpdated: false,
+                        isRoundOf16EloUpdated: false,
+                        isRoundOf8EloUpdated: false,
+                        isRoundOf4EloUpdated: false,
+                        isRoundOf2EloUpdated: false
+                    },
+                    {
+                        name: 'SilkRoad',
+                        pathway: SilkRoad,
+                        finished: false,
+                        setUp: [],
+                        prelimsRound: [
+                            {
+                                bracketHolder: '',
+                                bracketKey: 1,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 40,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 4,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 7,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 5,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 6,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 8,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 3,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 39,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 2,
+                                bracketVictory: false
+                            }
+            ],
+                        roundOf16: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 9,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 10,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 11,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 12,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 13,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 14,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 15,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 16,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 17,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 18,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 19,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 20,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 21,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 22,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 23,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 24,
+                                            bracketVictory: false
+                                        }
+
+                        ],  
+                        roundOf8: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 25,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 26,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 27,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 28,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 29,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 30,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 31,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 32,
+                                            bracketVictory: false
+                                        }
+                        ],
+                        roundOf4: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 33,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 34,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 35,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 36,
+                                            bracketVictory: false
+                                        },
+        
+                        ],
+                        roundOf2: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 37,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 38,
+                                            bracketVictory: false
+                                        }
+                        ],
+                        champion: '',
+                        isPrelimsEloUpdated: false,
+                        isRoundOf16EloUpdated: false,
+                        isRoundOf8EloUpdated: false,
+                        isRoundOf4EloUpdated: false,
+                        isRoundOf2EloUpdated: false
+                    },
+                    {
+                        name: 'YellowRiver',
+                        pathway: YellowRiver,
+                        finished: false,
+                        setUp: [],
+                        prelimsRound: [
+                            {
+                                bracketHolder: '',
+                                bracketKey: 1,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 40,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 4,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 7,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 5,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 6,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 8,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 3,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 39,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 2,
+                                bracketVictory: false
+                            }
+            ],
+                        roundOf16: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 9,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 10,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 11,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 12,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 13,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 14,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 15,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 16,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 17,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 18,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 19,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 20,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 21,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 22,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 23,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 24,
+                                            bracketVictory: false
+                                        }
+
+                        ],  
+                        roundOf8: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 25,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 26,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 27,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 28,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 29,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 30,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 31,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 32,
+                                            bracketVictory: false
+                                        }
+                        ],
+                        roundOf4: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 33,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 34,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 35,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 36,
+                                            bracketVictory: false
+                                        },
+        
+                        ],
+                        roundOf2: [
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 37,
+                                            bracketVictory: false
+                                        },
+                                        {
+                                            bracketHolder: '',
+                                            bracketKey: 38,
+                                            bracketVictory: false
+                                        }
+                        ],
+                        champion: '',
+                        isPrelimsEloUpdated: false,
+                        isRoundOf16EloUpdated: false,
+                        isRoundOf8EloUpdated: false,
+                        isRoundOf4EloUpdated: false,
+                        isRoundOf2EloUpdated: false
+                    },
             ],
 
     ongoingTournament: false
@@ -5205,11 +9973,14 @@ const tournamentsSlice = createSlice({
                     
                     let sortedData = []
                     data.forEach(e => sortedData.push(e.country))
+                    
+                    console.log('[TournamentSlice.js]  countryDAta in tournmanet?  ' + sortedData ) 
                     return state.mapList[index].setUp = sortedData
                     }
             });
         },
         updatePrelims(state, action){
+            console.log('[TournamentSlice.js]  updatePrelims' ) 
             state.mapList.forEach((element, index) => {
                 if(element.name === action.payload.map){
                      return state.mapList[index].prelimsRound[action.payload.index].bracketHolder = action.payload.country
@@ -5217,6 +9988,8 @@ const tournamentsSlice = createSlice({
             });
         },
         prelimVictories(state, action){
+            console.log('[TournamentSlice.js]  PrelimVictories' ) 
+
             state.mapList.forEach((element, index) => {
                 if(element.name === action.payload.map){
                         switch (action.payload.index) {
@@ -5259,6 +10032,16 @@ const tournamentsSlice = createSlice({
                                 return (
                                     state.mapList[index].prelimsRound[action.payload.index].bracketVictory = 'V',
                                     state.mapList[index].prelimsRound[6].bracketVictory = 'L'
+                                )   
+                                case 8:
+                                return (
+                                    state.mapList[index].prelimsRound[action.payload.index].bracketVictory = 'V',
+                                    state.mapList[index].prelimsRound[9].bracketVictory = 'L'
+                                )
+                            case 9:
+                                return (
+                                    state.mapList[index].prelimsRound[action.payload.index].bracketVictory = 'V',
+                                    state.mapList[index].prelimsRound[8].bracketVictory = 'L'
                                 )    
                             default:
                             break;
@@ -5267,7 +10050,7 @@ const tournamentsSlice = createSlice({
             })
         },
         updateRoundOf16(state, action){
-            
+            console.log('[TournamentSlice.js]  roundOf16' ) 
             state.mapList.forEach((element, index) => {
                 if(element.name === action.payload.map){
                     

@@ -16,8 +16,6 @@
     left: 5%;
     width: 180px;
     cursor: pointer;
-
-
     height: 45px;
     color: rgb(161, 142, 31);
     font-size: 25px;
@@ -109,8 +107,6 @@
     height: 30vh;
     width: 39vw;
     grid-column: 1/2;
-    
-
 }
 
 .Flag img {
@@ -123,7 +119,6 @@
     width: 100%;
     text-align: center;
     grid-column: 2/3;
-    
 }
 
 .Medals{
@@ -218,3 +213,88 @@
 
 
 
+@media (max-width: 800px) {
+    .Holder {
+        top: 8%;
+        left: 10%;
+        width: 80%;
+        height: 80%;
+        font-size: 2vh;
+    }
+    
+    .HomeButton {
+        position: absolute;
+        top: 2%;
+        left: calc(50% - 60px);
+        width: 120px;
+        cursor: pointer;
+        height: 30px;
+        color: rgb(161, 142, 31);
+        font-size: 20px;
+    }
+
+    .Modal {
+        position: absolute;
+        border-radius: 24px;
+        border: 2px solid white;
+        
+        height: 70%;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 40vh 30vh;
+        padding: 16px;
+        background-size: 110% 110%;
+        background-position: right 50% bottom 50%;
+        background-repeat: no-repeat;
+    }
+
+
+    .Flag {
+        height: 160px;
+        width: 320px;
+        grid-column: 1/2;
+    }
+    .Content {
+        justify-self: left;
+        width: 100%;
+        text-align: center;
+        grid-column: 2/3;
+    }
+    
+    
+}
+
+@media (max-height: 400px) {
+    .Holder {
+        top: 15%;
+        left: 10%;
+        width: 80%;
+        height: 80%;
+        font-size: 2vh;
+    }
+    .HomeButton {
+        position: absolute;
+        top: 2%;
+        left: calc(50% - 60px);
+        width: 120px;
+        cursor: pointer;
+        height: 30px;
+        color: rgb(161, 142, 31);
+        font-size: 20px;
+    }
+    .Modal {
+        position: absolute;
+        border-radius: 24px;
+        border: 2px solid white;
+        top: 0%;
+        height: 90%;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 57vh 35vh;
+        padding: 16px;
+        background-size: 110% 110%;
+        background-position: right 50% bottom 50%;
+        background-repeat: no-repeat;
+    }
+    
+}

@@ -1,6 +1,6 @@
 import { configureStore } from '@reduxjs/toolkit';
 import stateReducer from '../store/stateSlice';
-import countryReducer from '../store/countrySlice';
+import countryReducer from '../store/countrySlice' ;
 import tournamentsReducer from '../store/tournamentsSlice';
 import { persistReducer } from 'redux-persist';
 import storage from 'redux-persist/lib/storage';

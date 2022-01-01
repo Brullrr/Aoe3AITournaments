@@ -88,3 +88,19 @@
     border: 3px solid transparent;
     border-radius: 8px;
 }
+
+
+@media (max-width: 800px) {
+    
+    .HomeButton {
+        font-size: 18px;
+    }
+    .ListItem button{
+        font-size: 20px;
+    }
+    .AddButton {
+        font-size: 18px;
+        width: 200px;
+        left: calc(50% - 100px);
+    }
+}

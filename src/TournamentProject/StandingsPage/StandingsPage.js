@@ -43,7 +43,7 @@ const StandingsPage = () => {
 
                         <div className={classes.Content}>
                             <p className={classes.ContentCountryName}>{e.country}</p>
-                            <p> <strong>Rank:</strong> {e.rank}  <strong>ELO:</strong> {e.elo}</p>
+                            <p> <strong>ELO:</strong> {e.elo}</p>
                             <p>Wins: {e.wins}  Losses: {e.losses}</p>
                             <div className={classes.WinBar} style={{
                                 background: 'linear-gradient( to right, green, rgb(71, 187, 71)'+ ((e.wins/(e.wins+e.losses)).toFixed(2)*100) +  '%, salmon ' + ((e.wins/(e.wins+e.losses)).toFixed(2)*100) +  '%, red)'

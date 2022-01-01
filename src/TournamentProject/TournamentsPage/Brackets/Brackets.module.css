@@ -15,7 +15,7 @@
     left: 2%;
     width: 98%;
     display: grid;
-    grid-template-columns: 140px 20px 140px 40px 140px 60px 140px 80px 140px;
+    grid-template-columns: 140px 20px 140px 40px 140px 80px 140px 115px 140px;
     grid-template-rows: 8 4 16 8 8 4 4 2;
 }
 
@@ -27,7 +27,7 @@
     text-align: center;
     line-height: 0px;
     background: 
-     linear-gradient(to right, rgb(145, 58, 11), rgb(153, 81, 42) 30% 70%, rgb(145, 58, 11)) padding-box, 
+     linear-gradient(to right, rgb(55, 109, 112), rgb(142, 180, 178) 30% 70%, rgb(55, 109, 112)) padding-box, 
      linear-gradient(to left, rgb(49, 49, 3), rgb(85, 85, 83), rgb(49, 49, 3)) border-box;
     border: 3px solid transparent;
     border-radius: 2px;
@@ -41,14 +41,15 @@
     background-color: rgba(167, 187, 187, 0.738); 
     height: 20px;
 } */
+
 .BufferBracket::before {
     position: relative;
     content: '';
     display: inline-block;
     width: 12px;
     height: 12px;
-    border-right: 3px solid black;
-    border-top: 3px solid black;
+    border-right: 4px solid rgb(4, 4, 71);
+    border-top: 4px solid rgb(4, 4, 71);
     transform: rotate(45deg);
     margin-right: 6px;
     margin-top: 12px;
@@ -57,35 +58,31 @@
     position: relative;
     content: '';
     display: inline-block;
-    width: 40px;
-    height: 40px;
-    border-right: 4px solid black;
-    border-top: 4px solid black;
+    width: 55px;
+    height: 55px;
+    border-right: 8px solid rgb(4, 4, 71);
+    border-top: 8px solid rgb(4, 4, 71);
     transform: rotate(45deg);
 }
-.BufferBracketThree::before {
+.BufferBracketThree {
     position: relative;
     content: '';
     display: inline-block;
-    width: 52px;
-    height: 52px;
-    border-right: 5px solid black;
-    border-top: 5px solid black;
+    width: 92px;
+    height: 92px;
+    border-right: 16px solid rgb(4, 4, 71);
+    border-top: 16px solid rgb(4, 4, 71);
     transform: rotate(45deg);
     margin-left: -20px;
     margin-top: 52px;
 }
-.BufferBracketFour::before {
+.BufferBracketFour {
     position: relative;
     content: '';
     display: inline-block;
-    width: 96px;
-    height: 96px;
-    border-right: 6px solid black;
-    border-top: 6px solid black;
+    border-right: 24px solid rgb(4, 4, 71);
+    border-top: 24px solid rgb(4, 4, 71);
     transform: rotate(45deg);
-    margin-left: -46px;
-    margin-top: 115px;
 }
 
 
@@ -105,22 +102,28 @@
 }
 
 .Prelims .Bracket:nth-child(3) {
-    margin-top: 180px;
+    margin-top: 100px;
 }
 .Prelims .Bracket:nth-child(4) {
-    margin-top: 160px;
+    margin-top: 80px;
 }
 .Prelims .Bracket:nth-child(5) {
-    margin-top: 260px;
+    margin-top: 100px;
 }
 .Prelims .Bracket:nth-child(6) {
-    margin-top: 240px;
+    margin-top: 80px;
 }
 .Prelims .Bracket:nth-child(7) {
-    margin-top: 340px;
+    margin-top: 180px;
 }
 .Prelims .Bracket:nth-child(8) {
-    margin-top: 320px;
+    margin-top: 160px;
+}
+.Prelims .Bracket:nth-child(9) {
+    margin-top: 260px;
+}
+.Prelims .Bracket:nth-child(10) {
+    margin-top: 0px;
 }
 
 
@@ -136,13 +139,16 @@
     margin-top: 40px;
 }
 .PrelimBuffer .BufferBracket:nth-child(2) {
-    margin-top: 240px;
+    margin-top: 160px;
 }
 .PrelimBuffer .BufferBracket:nth-child(3) {
-    margin-top: 360px;
+    margin-top: 200px;
 }
 .PrelimBuffer .BufferBracket:nth-child(4) {
-    margin-top: 480px;
+    margin-top: 320px;
+}
+.PrelimBuffer .BufferBracket:nth-child(5) {
+    margin-top: 440px;
 }
 
 
@@ -168,28 +174,36 @@
 }
 
 .RoundOf16Buffer .BufferBracketTwo:nth-child(1) {
-    margin:  20px 0px 0px -18px;
+    height: 0px;
+    margin:  56px 0px 0px -9px;
 }
 .RoundOf16Buffer .BufferBracketTwo:nth-child(2) {
-    margin:  30px 0px 0px -18px;
+    width: 0px;
+    margin: 0px 0px 0px 18px;
 }
 .RoundOf16Buffer .BufferBracketTwo:nth-child(3) {
-    margin:  32px 0px 0px -18px;
+    height: 0px;
+    margin:  81px 0px 0px -9px;
 }
 .RoundOf16Buffer .BufferBracketTwo:nth-child(4) {
-    margin:  35px 0px 0px -18px;
+    width: 0px;
+    margin:  0px 0px 0px 18px;
 }
 .RoundOf16Buffer .BufferBracketTwo:nth-child(5) {
-    margin:  30px 0px 0px -18px;
+    height: 0px;
+    margin:  81px 0px 0px -9px;
 }
 .RoundOf16Buffer .BufferBracketTwo:nth-child(6) {
-    margin:  32px 0px 0px -18px;
+    width: 0px;
+    margin:  0px 0px 0px 18px;
 }
 .RoundOf16Buffer .BufferBracketTwo:nth-child(7) {
-    margin:  30px 0px 0px -18px;
+    height: 0px;
+    margin:  81px 0px 0px -9px;
 }
 .RoundOf16Buffer .BufferBracketTwo:nth-child(8) {
-    margin:  32px 0px 0px -18px;
+    width: 0px;
+    margin:  0px 0px 0px 18px;
 }
 
 
@@ -201,19 +215,38 @@
 }
 
 .RoundOf8 .Bracket {
-    height: 80px;
+    
+    height: 40px;
 }
 
 .RoundOf8 .Bracket:nth-child(even) {
+    margin-top: none;
     border-top: none;
 }
 .RoundOf8 .Bracket:nth-child(odd) {
+    margin-top: 40px;
     border-bottom: none;
 }
 
 .RoundOf8Buffer .BufferBracketThree {
-    width: 60px;
-    height: 158px;
+    width: 110px;
+    height: 110px;
+}
+.RoundOf8Buffer .BufferBracketThree:nth-child(1) {
+    height:  0px;
+    margin:  113px 0px 0px -15px;
+}
+.RoundOf8Buffer .BufferBracketThree:nth-child(2) {
+    width: 0px;
+    margin:  4px 0px 0px 40px;
+}
+.RoundOf8Buffer .BufferBracketThree:nth-child(3) {
+    height: 0px;
+    margin:  166px 0px 0px -15px;
+}
+.RoundOf8Buffer .BufferBracketThree:nth-child(4) {
+    width: 0px;
+    margin: 4px 0px 0px 40px;
 }
 
 .RoundOf4 {
@@ -222,19 +255,34 @@
     grid-template-rows: repeat(4, 160px);
 }
 .RoundOf4 .Bracket {
-    height: 160px;
+    height: 40px;
 }
 
 .RoundOf4 .Bracket:nth-child(even) {
+    
     border-top: none;
 }
 .RoundOf4 .Bracket:nth-child(odd) {
+    margin-top: 120px;
     border-bottom: none;
 }
 
-.RoundOf4Buffer .BufferBracketFour {
-    width: 80px;
-    height: 318px;
+
+
+.RoundOf4Buffer .BufferBracketFour:nth-child(1) {
+    width: 175px;
+    height: 0px;
+    margin:  228px 0px 0px -41px;
+    transform: rotate(60deg);
+
+
+}
+.RoundOf4Buffer .BufferBracketFour:nth-child(2) {
+    width: 0px;
+    height: 175px;
+    margin:  45px 0px 0px 47px;
+    transform: rotate(30deg);
+
 }
 
 .RoundOf2 {
@@ -245,16 +293,20 @@
 }
 .RoundOf2 .Bracket {
     text-align: center;
-    height: 320px;
-    
+    height: 40px; 
+}
+
+.RoundOf2 .Bracket:nth-child(1) {
+    margin-top: 280px;
 }
 
 .Winner {
     position: absolute;
     top: 40%;
     width: 25%;
-    left: 70%;
-    height: 80px;
+    width: 320px;
+    right: 2%;
+    height: 160px;
     border: 1px solid black;
     background-color: rgba(179, 179, 54, 0.753);
     color: black;
@@ -262,7 +314,11 @@
     font-weight: bolder;
     text-align: center;
     border-radius: 24px;
-    line-height: 80px;
+}
+.Winner img {
+    height: 100%;
+    width: 100%;
+    border-radius: 24px;
 }
 
 
@@ -270,12 +326,12 @@
     position: absolute;
     width: 180px;
     height: 40px;
-    top: 85%;
-    left: 75%;
-    transition: 0.6s ease-in-out;
+    top: 5%;
+    right: 5%;
+    transition: 30s ease-in-out;
 }
 .HomeHolder:hover {
-    transform: scale(1.3);
+    transform: scale(10.1);
     cursor: pointer;
 }
 
@@ -294,18 +350,47 @@
 }
 
 
-/* .MapImage {
-    position: absolute;
-    top: 55%;
-    height: 250px;
-    width: 250px;
-    left: 72%;
-    transition: 0.6s ease-in-out;
+.HomeFont {
+    margin: 0;
+    padding: 0;
+
 }
 
+.HomeButton:hover .HomeFont {
+    animation: textDance 1s linear;
+}
 
-.MapImage:hover {
+@keyframes textDance {
+    0% {transform: scale(1, 1);}
+    20% {transform: scale(1, .5);}
+    40% {transform: scale(1, 1);}
+    60% {transform: scale(1, .5);}
+    80% {transform: scale(1, 1);}
+}
+
+@media (max-width: 800px) {
     
-    transform: scale(1.3);
-    cursor: pointer;
-} */
+    .Body {
+        width: 1000px;
+        height: 120vh;  
+    }
+    
+    .Winner {
+        top: 90%;
+        right: 7%;
+    }
+}
+
+@media (max-height: 400px) {
+    .Body {
+        width: 1000px;
+        height: 700px;
+
+    }
+    .Winner {
+        top: 15%;
+        right: calc(5% - 4px);
+        width: 180px;
+        height: 90px;
+    }
+}

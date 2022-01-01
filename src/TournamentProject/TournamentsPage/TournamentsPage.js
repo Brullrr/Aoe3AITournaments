@@ -26,7 +26,7 @@ const TournamentsPage = () => {
         </div>
 
 
-    {isTournamentOngoing ? null : <button onClick={toggleModalHandler} className={classes.AddButton}>add new Tournament</button>}
+    {isTournamentOngoing ? null : <button onClick={toggleModalHandler} className={classes.AddButton}>Add Tournament</button>}
     </div>)
 
     if(isModalOpen) {
@@ -39,7 +39,7 @@ const TournamentsPage = () => {
     return (
 
         <div className={classes.Body}>
-            <Link to='/'><button className={classes.HomeButton}>Home</button> </Link>
+            {isModalOpen ? null : <Link to='/'><button className={classes.HomeButton}>Home</button> </Link>}
             {output}</div>
     )
 }

@@ -20,6 +20,7 @@ import RussiaBackground from '../Images/Homecity/Russian.png';
 import DutchBackground from '../Images/Homecity/Dutch.png';
 import GermanyBackground from '../Images/Homecity/German.png';
 import PortugalBackground from '../Images/Homecity/Portuguese.png';
+import MexicoBackground from '../Images/Homecity/Mexican.png';
 
 import Sweden from '../Images/Flags/Swedish.png';
 import Player from '../Images/SailorBackground.jpg';
@@ -41,6 +42,7 @@ import Russia from '../Images/Flags/Russian.png';
 import Dutch from '../Images/Flags/Dutch.png';
 import Germany from '../Images/Flags/German.png';
 import Portugal from '../Images/Flags/Portuguese.png';
+import Mexico from '../Images/Flags/Mexican.png';
 
 
 
@@ -288,6 +290,18 @@ const initialState = [
         flag: Dutch,
         rank: 1
     },
+    {
+        country: 'Mexicans',
+        wins: 0,
+        losses: 0,
+        gold: 0,
+        silver: 0,
+        bronze: 0,
+        elo: 1000,
+        background: MexicoBackground,
+        flag: Mexico,
+        rank: 1
+    }
 ];
 
 const countrySlice = createSlice({

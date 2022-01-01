@@ -35,6 +35,8 @@
 
 
 
+
+
 .TournamentsButton {
     position: absolute;
     top: 50%;
@@ -54,4 +56,25 @@
 .TournamentsButton:hover {
     transform: scale(1.05);
     cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 800px) {
+    .TournamentsButton {
+        font-size: 18px;
+        width: 200px;
+    }
+    .StandingsButton {
+        font-size: 18px;
+        width: 200px;
+    }
+
 }
