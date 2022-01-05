@@ -59,7 +59,8 @@ const initialState = [
         elo: 1000,
         background: PlayerBackground,
         flag: Player,
-        rank: 1
+        rank: 1,
+        team: 'none'
     },
     {
         country: 'Spanish',
@@ -71,7 +72,8 @@ const initialState = [
         elo: 1000,
         background: SpainBackground,
         flag: Spain,
-        rank: 1
+        rank: 1,
+        team: 'Latin'
     },
     {
         country: 'Aztec',
@@ -83,7 +85,8 @@ const initialState = [
         elo: 1000,
         background: AztecBackground,
         flag: Aztec,
-        rank: 1
+        rank: 1,
+        team: 'LatinAmerica'
     },
     {
         country: 'Haudenosaunee',
@@ -95,7 +98,8 @@ const initialState = [
         elo: 1000,
         background: HaudenosauneeBackground,
         flag: Haudenosaunee,
-        rank: 1
+        rank: 1,
+        team: 'NorthAmerica'
     },
     {
         country: 'Lakota',
@@ -107,7 +111,8 @@ const initialState = [
         elo: 1000,
         background: LakotaBackground,
         flag: Lakota,
-        rank: 1
+        rank: 1,
+        team: 'NorthAmerica'
     },
     {
         country: 'Japanese',
@@ -119,7 +124,8 @@ const initialState = [
         elo: 1000,
         background: JapanBackground,
         flag: Japan,
-        rank: 1
+        rank: 1,
+        team: 'Asia'
     },
     {
         country: 'Chinese',
@@ -131,7 +137,8 @@ const initialState = [
         elo: 1000,
         background: ChinaBackground,
         flag: China,
-        rank: 1
+        rank: 1,
+        team: 'Asia'
     },
     {
         country: 'French',
@@ -143,7 +150,8 @@ const initialState = [
         elo: 1000,
         background: FranceBackground,
         flag: France,
-        rank: 1
+        rank: 1,
+        team: 'Latin'
     },
     {
         country: 'Indians',
@@ -155,7 +163,8 @@ const initialState = [
         elo: 1000,
         background: IndiaBackground,
         flag: India,
-        rank: 1
+        rank: 1,
+        team: 'Asia'
     },
     {
         country: 'Americans',
@@ -168,6 +177,7 @@ const initialState = [
         background: AmericaBackground,
         flag: America,
         rank: 1,
+        team: 'NorthAmerica',
         
     },
     {
@@ -180,7 +190,8 @@ const initialState = [
         elo: 1000,
         background: HausaBackground,
         flag: Hausa,
-        rank: 1
+        rank: 1,
+        team: 'Africa'
     },
     {
         country: 'British',
@@ -192,7 +203,8 @@ const initialState = [
         elo: 1000,
         background: BritishBackground,
         flag: UK,
-        rank: 1
+        rank: 1,
+        team: 'Germanic'
     },
     {
         country: 'Swedish',
@@ -204,7 +216,8 @@ const initialState = [
         elo: 1000,
         background: SwedenBackground,
         flag: Sweden,
-        rank: 1
+        rank: 1,
+        team: 'Germanic'
     },
     {
         country: 'Incan',
@@ -216,7 +229,8 @@ const initialState = [
         elo: 1000,
         background: IncaBackground,
         flag: Inca,
-        rank: 1
+        rank: 1,
+        team: 'LatinAmerica'
     },
     {
         country: 'Ethiopians',
@@ -228,7 +242,8 @@ const initialState = [
         elo: 1000,
         background: EthiopiaBackground,
         flag: Ethiopia,
-        rank: 1
+        rank: 1,
+        team: 'Africa'
     },
     {
         country: 'Portuguese',
@@ -240,7 +255,8 @@ const initialState = [
         elo: 1000,
         background: PortugalBackground,
         flag: Portugal,
-        rank: 1
+        rank: 1,
+        team: 'Latin'
     },
     {
         country: 'Germans',
@@ -252,7 +268,8 @@ const initialState = [
         elo: 1000,
         background: GermanyBackground,
         flag: Germany,
-        rank: 1
+        rank: 1,
+        team: 'Germanic'
     },
     {
         country: 'Russians',
@@ -264,7 +281,8 @@ const initialState = [
         elo: 1000,
         background: RussiaBackground,
         flag: Russia,
-        rank: 1
+        rank: 1,
+        team: 'Latin'
     },
     {
         country: 'Ottomans',
@@ -276,7 +294,8 @@ const initialState = [
         elo: 1000,
         background: OttomanBackground,
         flag: Ottoman,
-        rank: 1
+        rank: 1,
+        team: 'Africa'
     },
     {
         country: 'Dutch',
@@ -288,7 +307,8 @@ const initialState = [
         elo: 1000,
         background: DutchBackground,
         flag: Dutch,
-        rank: 1
+        rank: 1,
+        team: 'Germanic'
     },
     {
         country: 'Mexicans',
@@ -300,7 +320,8 @@ const initialState = [
         elo: 1000,
         background: MexicoBackground,
         flag: Mexico,
-        rank: 1
+        rank: 1,
+        team: 'LatinAmerica'
     }
 ];
 

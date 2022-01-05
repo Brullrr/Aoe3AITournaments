@@ -71,6 +71,9 @@ const StandingsPage = () => {
             <Link to='/'>
                 <button className={classes.HomeButton}>Home</button>
             </Link>
+            <Link to='/TeamScores'>
+                <button className={classes.TeamButton}>Teams</button>
+            </Link>
             
             {modalIsOpen ? modal : <div className={classes.Holder}>
                 <div >
