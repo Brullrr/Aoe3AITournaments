@@ -21,6 +21,8 @@ import DutchBackground from '../Images/Homecity/Dutch.png';
 import GermanyBackground from '../Images/Homecity/German.png';
 import PortugalBackground from '../Images/Homecity/Portuguese.png';
 import MexicoBackground from '../Images/Homecity/Mexican.png';
+import ItalyBackground from '../Images/Homecity/Mexican.png';
+
 
 import Sweden from '../Images/Flags/Swedish.png';
 import Player from '../Images/SailorBackground.jpg';
@@ -43,6 +45,8 @@ import Dutch from '../Images/Flags/Dutch.png';
 import Germany from '../Images/Flags/German.png';
 import Portugal from '../Images/Flags/Portuguese.png';
 import Mexico from '../Images/Flags/Mexican.png';
+import Italy from '../Images/Flags/Mexican.png';
+
 
 
 
@@ -322,6 +326,19 @@ const initialState = [
         flag: Mexico,
         rank: 1,
         team: 'LatinAmerica'
+    },
+    {
+        country: 'Italy',
+        wins: 0,
+        losses: 0,
+        gold: 0,
+        silver: 0,
+        bronze: 0,
+        elo: 1000,
+        background: ItalyBackground,
+        flag: Italy,
+        rank: 1,
+        team: 'Africa'
     }
 ];
 

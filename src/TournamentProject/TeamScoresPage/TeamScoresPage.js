@@ -160,10 +160,10 @@ const TeamScoresPage = () => {
                 
                 
                     <div style={{
-                        height: (teamData[0].teamElo/10) + 'px',
-                        marginTop: (400 - (teamData[0].teamElo/10) )  + 'px'
+                        height: (60*( ((teamData[0].teamElo/4)*3) - 2500) /1000) + 'vh',
+                        marginTop:  60 - (60*( ((teamData[0].teamElo/4)*3) - 2500) /1000) +  'vh'
 
-                    }} >Africa:<br/> {teamData[0].teamElo}<div className={classes.WinBar} style={{
+                    }} >Africa:<br/> { teamData[0].teamElo/4}<div className={classes.WinBar} style={{
                         background: 'linear-gradient( to right, green, rgb(71, 187, 71)'+ ((teamData[0].teamWins/(teamData[0].teamWins+teamData[0].teamLosses)).toFixed(2)*100) +  '%, salmon ' + ((teamData[0].teamWins/(teamData[0].teamWins+teamData[0].teamLosses)).toFixed(2)*100) +  '%, red)',
                         height: '50px'
                     }}>{(teamData[0].teamWins/(teamData[0].teamWins+teamData[0].teamLosses)).toFixed(2)*100}%</div></div>
@@ -173,9 +173,9 @@ const TeamScoresPage = () => {
 
                 
                 <div style={{
-                    height: ((teamData[1].teamElo/10)) + 'px',
-                    marginTop: (400 - (teamData[1].teamElo/10) )  + 'px'
-                }}>Asia: <br/> {teamData[1].teamElo} 
+                    height: (60*( ((teamData[1].teamElo/3)*3) - 2500) /1000) + 'vh',
+                    marginTop:  60 - (60*( ((teamData[1].teamElo/3)*3) - 2500) /1000) +  'vh'
+                }}>Asia: <br/> {teamData[1].teamElo/3} 
                     <div className={classes.WinBar} style={{
                                 background: 'linear-gradient( to right, green, rgb(71, 187, 71)'+ ((teamData[1].teamWins/(teamData[1].teamWins+teamData[1].teamLosses)).toFixed(2)*100) +  '%, salmon ' + ((teamData[1].teamWins/(teamData[1].teamWins+teamData[1].teamLosses)).toFixed(2)*100) +  '%, red)',
                                 height: '50px'
@@ -183,9 +183,9 @@ const TeamScoresPage = () => {
                 </div>
 
                 <div style={{
-                    height: ((((teamData[2].teamElo)/4)*3)/10) + 'px',
-                    marginTop: (400 - ((((teamData[2].teamElo)/4)*3)/10) )  + 'px'
-                }}>Latin:<br/> {((teamData[2].teamElo)/4)*3}
+                    height: (60*( ((teamData[2].teamElo/4)*3) - 2500) /1000) + 'vh',
+                    marginTop:  60 - (60*( ((teamData[2].teamElo/4)*3) - 2500) /1000) +  'vh'
+                }}>Latin:<br/> {teamData[2].teamElo/4}
                 <div className={classes.WinBar} style={{
                                 background: 'linear-gradient( to right, green, rgb(71, 187, 71)'+ ((teamData[2].teamWins/(teamData[2].teamWins+teamData[2].teamLosses)).toFixed(2)*100) +  '%, salmon ' + ((teamData[2].teamWins/(teamData[2].teamWins+teamData[2].teamLosses)).toFixed(2)*100) +  '%, red)',
                                 height: '50px'
@@ -193,9 +193,9 @@ const TeamScoresPage = () => {
                 </div>
 
                 <div style={{
-                    height: ((((teamData[3].teamElo)/4)*3)/10) + 'px',
-                    marginTop: ( 400 - ((((teamData[3].teamElo)/4)*3)/10) )  + 'px'
-                }}>Germanic:<br/> {((teamData[3].teamElo)/4)*3  }
+                    height: (60*( ((teamData[3].teamElo/4)*3) - 2500) /1000) + 'vh',
+                    marginTop:  60 - (60*( ((teamData[3].teamElo/4)*3) - 2500) /1000) +  'vh'
+                }}>Germanic:<br/> {teamData[3].teamElo/4  }
                 <div className={classes.WinBar} style={{
                                 background: 'linear-gradient( to right, green, rgb(71, 187, 71)'+ ((teamData[3].teamWins/(teamData[3].teamWins+teamData[3].teamLosses)).toFixed(2)*100) +  '%, salmon ' + ((teamData[3].teamWins/(teamData[3].teamWins+teamData[3].teamLosses)).toFixed(2)*100) +  '%, red)',
                                 height: '50px'
@@ -203,19 +203,19 @@ const TeamScoresPage = () => {
                 </div>
 
                 <div style={{
-                    height: (teamData[4].teamElo/10) + 'px',
-                    marginTop: ( 400 - (teamData[4].teamElo/10) )  + 'px'
-                }}>NorthAmerica:<br/> {teamData[4].teamElo}
+                    height: (60*( ((teamData[4].teamElo/3)*3) - 2500) /1000) + 'vh',
+                    marginTop:  60 - (60*( ((teamData[4].teamElo/3)*3) - 2500) /1000) +  'vh'
+                }}>NorthAmerica:<br/> {teamData[4].teamElo/3}
                 <div className={classes.WinBar} style={{
                                 background: 'linear-gradient( to right, green, rgb(71, 187, 71)'+ ((teamData[4].teamWins/(teamData[4].teamWins+teamData[4].teamLosses)).toFixed(2)*100) +  '%, salmon ' + ((teamData[4].teamWins/(teamData[4].teamWins+teamData[4].teamLosses)).toFixed(2)*100) +  '%, red)',
                                 height: '50px'
-                            }}>{(teamData[4].teamWins/(teamData[4].teamWins+teamData[4].teamLosses)).toFixed(2)*100}%</div>
+                            }}>{((teamData[4].teamWins/(teamData[4].teamWins+teamData[4].teamLosses))*100 ).toFixed(0)}%</div>
                 </div>
 
                 <div style={{
-                    height: (teamData[5].teamElo/10) + 'px',
-                    marginTop: ( 400 - (teamData[5].teamElo/10) )  + 'px'
-                }}>LatinAmerica:<br/> {teamData[5].teamElo}
+                    height: (60*( ((teamData[5].teamElo/3)*3) - 2500) /1000) + 'vh',
+                    marginTop:  60 - (60*( ((teamData[5].teamElo/3)*3) - 2500) /1000) +  'vh'
+                }}>LatinAmerica:<br/> {teamData[5].teamElo/3}
                 <div className={classes.WinBar} style={{
                                 background: 'linear-gradient( to right, green, rgb(71, 187, 71)'+ ((teamData[5].teamWins/(teamData[5].teamWins+teamData[5].teamLosses)).toFixed(2)*100) +  '%, salmon ' + ((teamData[5].teamWins/(teamData[5].teamWins+teamData[5].teamLosses)).toFixed(2)*100) +  '%, red)',
                                 height: '50px'

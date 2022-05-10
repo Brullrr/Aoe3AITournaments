@@ -97,7 +97,7 @@ const Brackets = (props) => {
                     bracketVictory: false
                 },
                 {
-                    bracketHolder: dataSorted[10],
+                    bracketHolder: '',
                     bracketKey: 18,
                     bracketVictory: false
                 },
@@ -183,6 +183,14 @@ const Brackets = (props) => {
             {
                 country: dataSorted[16],
                 rank: 6
+            },
+            {
+                country: dataSorted[21],
+                rank: 41
+            },
+            {
+                country: dataSorted[10],
+                rank: 42
             }
         ] 
 
@@ -276,7 +284,7 @@ const Brackets = (props) => {
             rank: 6
         },
         {
-            country: dataSorted[10],
+            country: '',
             rank: 11
         },
         {
@@ -325,12 +333,21 @@ const Brackets = (props) => {
                         case 6:
                         RoundOf16Countries[7].country = e.bracketHolder
                         break;
+                        
+                        case 42:
+                        RoundOf16Countries[9].country = e.bracketHolder
+                        break;
+                        case 41:
+                        RoundOf16Countries[9].country = e.bracketHolder
+                        break;
+
                         case 8:
                         RoundOf16Countries[11].country = e.bracketHolder
                         break;
                         case 3:
                         RoundOf16Countries[11].country = e.bracketHolder
                         break;
+
                         case 39:
                         RoundOf16Countries[15].country = e.bracketHolder
                         break;
@@ -452,7 +469,7 @@ const Brackets = (props) => {
         tournamentMap.prelimsRound.forEach(e => allBracketsArray.push(e))
         let countriesCopy = JSON.parse(JSON.stringify(countries))
 
-        for(let i = 0; i< 9; i ++){
+        for(let i = 0; i< 11; i ++){
             let winner = ''; 
             let winnerIndex = '';
             let loser = '';
