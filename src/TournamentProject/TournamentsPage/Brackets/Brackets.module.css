@@ -48,8 +48,8 @@
     display: inline-block;
     width: 12px;
     height: 12px;
-    border-right: 4px solid rgb(4, 4, 71);
-    border-top: 4px solid rgb(4, 4, 71);
+    border-right: 4px solid rgba(4,4,71,0);
+    border-top: 4px solid rgba(4,4,71,0);
     transform: rotate(45deg);
     margin-right: 6px;
     margin-top: 12px;
@@ -60,8 +60,8 @@
     display: inline-block;
     width: 55px;
     height: 55px;
-    border-right: 8px solid rgb(4, 4, 71);
-    border-top: 8px solid rgb(4, 4, 71);
+    border-right: 8px solid rgba(4,4,71,0);
+    border-top: 8px solid rgba(4,4,71,0);
     transform: rotate(45deg);
 }
 .BufferBracketThree {
@@ -70,8 +70,8 @@
     display: inline-block;
     width: 92px;
     height: 92px;
-    border-right: 16px solid rgb(4, 4, 71);
-    border-top: 16px solid rgb(4, 4, 71);
+    border-right: 16px solid rgba(4,4,71,0);
+    border-top: 16px solid rgba(4,4,71,0);
     transform: rotate(45deg);
     margin-left: -20px;
     margin-top: 52px;
@@ -80,8 +80,8 @@
     position: relative;
     content: '';
     display: inline-block;
-    border-right: 24px solid rgb(4, 4, 71);
-    border-top: 24px solid rgb(4, 4, 71);
+    border-right: 24px solid rgba(4,4,71,0);
+    border-top: 24px solid rgba(4,4,71,0);
     transform: rotate(45deg);
 }
 
@@ -130,6 +130,12 @@
 }
 .Prelims .Bracket:nth-child(12) {
     margin-top: -260px;
+}
+.Prelims .Bracket:nth-child(13) {
+    margin-top: -120px;
+}
+.Prelims .Bracket:nth-child(14) {
+    margin-top: -100px;
 }
 
 

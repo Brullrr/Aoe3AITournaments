@@ -52,7 +52,7 @@
     grid-template-rows: 75% 25%;
     text-align: center;
     color: black;
-    border: 1px solid blue;
+    border: none;
     height: 100%;
 }
 

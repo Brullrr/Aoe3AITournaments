@@ -22,6 +22,7 @@ import GermanyBackground from '../Images/Homecity/German.png';
 import PortugalBackground from '../Images/Homecity/Portuguese.png';
 import MexicoBackground from '../Images/Homecity/Mexican.png';
 import ItalyBackground from '../Images/Homecity/Mexican.png';
+import MaltaBackground from '../Images/Homecity/Mexican.png';
 
 
 import Sweden from '../Images/Flags/Swedish.png';
@@ -45,7 +46,8 @@ import Dutch from '../Images/Flags/Dutch.png';
 import Germany from '../Images/Flags/German.png';
 import Portugal from '../Images/Flags/Portuguese.png';
 import Mexico from '../Images/Flags/Mexican.png';
-import Italy from '../Images/Flags/Mexican.png';
+import Italy from '../Images/Flags/Italian.png';
+import Malta from '../Images/Flags/Maltese.png';
 
 
 
@@ -77,7 +79,7 @@ const initialState = [
         background: SpainBackground,
         flag: Spain,
         rank: 1,
-        team: 'Latin'
+        team: 'Southern Europe'
     },
     {
         country: 'Aztec',
@@ -90,7 +92,7 @@ const initialState = [
         background: AztecBackground,
         flag: Aztec,
         rank: 1,
-        team: 'LatinAmerica'
+        team: 'Latin America'
     },
     {
         country: 'Haudenosaunee',
@@ -103,7 +105,7 @@ const initialState = [
         background: HaudenosauneeBackground,
         flag: Haudenosaunee,
         rank: 1,
-        team: 'NorthAmerica'
+        team: 'North America'
     },
     {
         country: 'Lakota',
@@ -116,7 +118,7 @@ const initialState = [
         background: LakotaBackground,
         flag: Lakota,
         rank: 1,
-        team: 'NorthAmerica'
+        team: 'North America'
     },
     {
         country: 'Japanese',
@@ -155,7 +157,7 @@ const initialState = [
         background: FranceBackground,
         flag: France,
         rank: 1,
-        team: 'Latin'
+        team: 'Southern Europe'
     },
     {
         country: 'Indians',
@@ -181,7 +183,7 @@ const initialState = [
         background: AmericaBackground,
         flag: America,
         rank: 1,
-        team: 'NorthAmerica',
+        team: 'North America',
         
     },
     {
@@ -208,7 +210,7 @@ const initialState = [
         background: BritishBackground,
         flag: UK,
         rank: 1,
-        team: 'Germanic'
+        team: 'Northern Europe'
     },
     {
         country: 'Swedish',
@@ -221,7 +223,7 @@ const initialState = [
         background: SwedenBackground,
         flag: Sweden,
         rank: 1,
-        team: 'Germanic'
+        team: 'Northern Europe'
     },
     {
         country: 'Incan',
@@ -234,7 +236,7 @@ const initialState = [
         background: IncaBackground,
         flag: Inca,
         rank: 1,
-        team: 'LatinAmerica'
+        team: 'Latin America'
     },
     {
         country: 'Ethiopians',
@@ -260,7 +262,7 @@ const initialState = [
         background: PortugalBackground,
         flag: Portugal,
         rank: 1,
-        team: 'Latin'
+        team: 'Southern Europe'
     },
     {
         country: 'Germans',
@@ -273,7 +275,7 @@ const initialState = [
         background: GermanyBackground,
         flag: Germany,
         rank: 1,
-        team: 'Germanic'
+        team: 'Northern Europe'
     },
     {
         country: 'Russians',
@@ -286,7 +288,7 @@ const initialState = [
         background: RussiaBackground,
         flag: Russia,
         rank: 1,
-        team: 'Latin'
+        team: 'Asia'
     },
     {
         country: 'Ottomans',
@@ -312,7 +314,7 @@ const initialState = [
         background: DutchBackground,
         flag: Dutch,
         rank: 1,
-        team: 'Germanic'
+        team: 'Northern Europe'
     },
     {
         country: 'Mexicans',
@@ -325,7 +327,7 @@ const initialState = [
         background: MexicoBackground,
         flag: Mexico,
         rank: 1,
-        team: 'LatinAmerica'
+        team: 'Latin America'
     },
     {
         country: 'Italy',
@@ -337,6 +339,19 @@ const initialState = [
         elo: 1000,
         background: ItalyBackground,
         flag: Italy,
+        rank: 1,
+        team: 'Southern Europe'
+    },
+    {
+        country: 'Malta',
+        wins: 0,
+        losses: 0,
+        gold: 0,
+        silver: 0,
+        bronze: 0,
+        elo: 1000,
+        background: MaltaBackground,
+        flag: Malta,
         rank: 1,
         team: 'Africa'
     }

@@ -117,7 +117,7 @@ const Brackets = (props) => {
                     bracketVictory: false
                 },
                 {
-                    bracketHolder: dataSorted[9],
+                    bracketHolder: '',
                     bracketKey: 22,
                     bracketVictory: false
                 },
@@ -191,7 +191,16 @@ const Brackets = (props) => {
             {
                 country: dataSorted[10],
                 rank: 42
-            }
+            },
+            {
+                country: dataSorted[22],
+                rank: 43
+            },
+            {
+                country: dataSorted[9],
+                rank: 44
+            },
+
         ] 
 
         const addPrelims = () => {
@@ -300,7 +309,7 @@ const Brackets = (props) => {
             rank: 7
         },
         {
-            country: dataSorted[9],
+            country: '',
             rank: 10
         },
         {
@@ -353,6 +362,13 @@ const Brackets = (props) => {
                         break;
                         case 2:
                         RoundOf16Countries[15].country = e.bracketHolder
+                        break;
+
+                        case 43:
+                        RoundOf16Countries[13].country = e.bracketHolder
+                        break;
+                        case 44:
+                        RoundOf16Countries[13].country = e.bracketHolder
                         break;
                     default:
                         break;
@@ -469,7 +485,7 @@ const Brackets = (props) => {
         tournamentMap.prelimsRound.forEach(e => allBracketsArray.push(e))
         let countriesCopy = JSON.parse(JSON.stringify(countries))
 
-        for(let i = 0; i< 11; i ++){
+        for(let i = 0; i< 13; i ++){
             let winner = ''; 
             let winnerIndex = '';
             let loser = '';

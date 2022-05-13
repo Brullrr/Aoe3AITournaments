@@ -142,6 +142,16 @@ const initialState = {
                                 bracketHolder: '',
                                 bracketKey: 42,
                                 bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 43,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 44,
+                                bracketVictory: false
                             }
             ],
                         roundOf16: [
@@ -375,6 +385,16 @@ const initialState = {
                             {
                                 bracketHolder: '',
                                 bracketKey: 42,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 43,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 44,
                                 bracketVictory: false
                             }
             ],
@@ -610,6 +630,16 @@ const initialState = {
                                 bracketHolder: '',
                                 bracketKey: 42,
                                 bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 43,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 44,
+                                bracketVictory: false
                             }
             ],
                         roundOf16: [
@@ -843,6 +873,16 @@ const initialState = {
                             {
                                 bracketHolder: '',
                                 bracketKey: 42,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 43,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 44,
                                 bracketVictory: false
                             }
             ],
@@ -1078,6 +1118,16 @@ const initialState = {
                                 bracketHolder: '',
                                 bracketKey: 42,
                                 bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 43,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 44,
+                                bracketVictory: false
                             }
             ],
                         roundOf16: [
@@ -1311,6 +1361,16 @@ const initialState = {
                             {
                                 bracketHolder: '',
                                 bracketKey: 42,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 43,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 44,
                                 bracketVictory: false
                             }
             ],
@@ -1546,6 +1606,16 @@ const initialState = {
                                 bracketHolder: '',
                                 bracketKey: 42,
                                 bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 43,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 44,
+                                bracketVictory: false
                             }
             ],
                         roundOf16: [
@@ -1779,6 +1849,16 @@ const initialState = {
                             {
                                 bracketHolder: '',
                                 bracketKey: 42,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 43,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 44,
                                 bracketVictory: false
                             }
             ], 
@@ -2014,6 +2094,16 @@ const initialState = {
                                 bracketHolder: '',
                                 bracketKey: 42,
                                 bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 43,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 44,
+                                bracketVictory: false
                             }
             ],
                        roundOf16: [
@@ -2247,6 +2337,16 @@ const initialState = {
                             {
                                 bracketHolder: '',
                                 bracketKey: 42,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 43,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 44,
                                 bracketVictory: false
                             }
             ],
@@ -2482,6 +2582,16 @@ const initialState = {
                                 bracketHolder: '',
                                 bracketKey: 42,
                                 bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 43,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 44,
+                                bracketVictory: false
                             }
             ],  
                         roundOf16: [
@@ -2715,6 +2825,16 @@ const initialState = {
                             {
                                 bracketHolder: '',
                                 bracketKey: 42,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 43,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 44,
                                 bracketVictory: false
                             }
             ],
@@ -2950,6 +3070,16 @@ const initialState = {
                                 bracketHolder: '',
                                 bracketKey: 42,
                                 bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 43,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 44,
+                                bracketVictory: false
                             }
             ],   
                         roundOf16: [
@@ -3182,6 +3312,16 @@ const initialState = {
                             {
                                 bracketHolder: '',
                                 bracketKey: 42,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 43,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 44,
                                 bracketVictory: false
                             }
             ],   
@@ -3417,6 +3557,16 @@ const initialState = {
                                 bracketHolder: '',
                                 bracketKey: 42,
                                 bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 43,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 44,
+                                bracketVictory: false
                             }
             ],   
                         roundOf16: [
@@ -3650,6 +3800,16 @@ const initialState = {
                             {
                                 bracketHolder: '',
                                 bracketKey: 42,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 43,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 44,
                                 bracketVictory: false
                             }
             ],   
@@ -3885,6 +4045,16 @@ const initialState = {
                                 bracketHolder: '',
                                 bracketKey: 42,
                                 bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 43,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 44,
+                                bracketVictory: false
                             }
             ],   
                         roundOf16: [
@@ -4118,6 +4288,16 @@ const initialState = {
                             {
                                 bracketHolder: '',
                                 bracketKey: 42,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 43,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 44,
                                 bracketVictory: false
                             }
             ],   
@@ -4353,6 +4533,16 @@ const initialState = {
                                 bracketHolder: '',
                                 bracketKey: 42,
                                 bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 43,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 44,
+                                bracketVictory: false
                             }
             ],
                         roundOf16: [
@@ -4586,6 +4776,16 @@ const initialState = {
                             {
                                 bracketHolder: '',
                                 bracketKey: 42,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 43,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 44,
                                 bracketVictory: false
                             }
             ],
@@ -4821,6 +5021,16 @@ const initialState = {
                                 bracketHolder: '',
                                 bracketKey: 42,
                                 bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 43,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 44,
+                                bracketVictory: false
                             }
             ],
                         roundOf16: [
@@ -5054,6 +5264,16 @@ const initialState = {
                             {
                                 bracketHolder: '',
                                 bracketKey: 42,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 43,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 44,
                                 bracketVictory: false
                             }
             ],
@@ -5289,6 +5509,16 @@ const initialState = {
                                 bracketHolder: '',
                                 bracketKey: 42,
                                 bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 43,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 44,
+                                bracketVictory: false
                             }
             ],  
                         roundOf16: [
@@ -5522,6 +5752,16 @@ const initialState = {
                             {
                                 bracketHolder: '',
                                 bracketKey: 42,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 43,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 44,
                                 bracketVictory: false
                             }
             ],  
@@ -5757,6 +5997,16 @@ const initialState = {
                                 bracketHolder: '',
                                 bracketKey: 42,
                                 bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 43,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 44,
+                                bracketVictory: false
                             }
             ],
                         roundOf16: [
@@ -5990,6 +6240,16 @@ const initialState = {
                             {
                                 bracketHolder: '',
                                 bracketKey: 42,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 43,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 44,
                                 bracketVictory: false
                             }
             ],
@@ -6225,6 +6485,16 @@ const initialState = {
                                 bracketHolder: '',
                                 bracketKey: 42,
                                 bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 43,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 44,
+                                bracketVictory: false
                             }
             ],
                         roundOf16: [
@@ -6458,6 +6728,16 @@ const initialState = {
                             {
                                 bracketHolder: '',
                                 bracketKey: 42,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 43,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 44,
                                 bracketVictory: false
                             }
             ],
@@ -6693,6 +6973,16 @@ const initialState = {
                                 bracketHolder: '',
                                 bracketKey: 42,
                                 bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 43,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 44,
+                                bracketVictory: false
                             }
             ],
                         roundOf16: [
@@ -6926,6 +7216,16 @@ const initialState = {
                             {
                                 bracketHolder: '',
                                 bracketKey: 42,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 43,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 44,
                                 bracketVictory: false
                             }
             ],
@@ -7161,6 +7461,16 @@ const initialState = {
                                 bracketHolder: '',
                                 bracketKey: 42,
                                 bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 43,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 44,
+                                bracketVictory: false
                             }
             ],
                         roundOf16: [
@@ -7394,6 +7704,16 @@ const initialState = {
                             {
                                 bracketHolder: '',
                                 bracketKey: 42,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 43,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 44,
                                 bracketVictory: false
                             }
             ],
@@ -7629,6 +7949,16 @@ const initialState = {
                                 bracketHolder: '',
                                 bracketKey: 42,
                                 bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 43,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 44,
+                                bracketVictory: false
                             }
             ],
                         roundOf16: [
@@ -7862,6 +8192,16 @@ const initialState = {
                             {
                                 bracketHolder: '',
                                 bracketKey: 42,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 43,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 44,
                                 bracketVictory: false
                             }
             ],
@@ -8097,6 +8437,16 @@ const initialState = {
                                 bracketHolder: '',
                                 bracketKey: 42,
                                 bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 43,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 44,
+                                bracketVictory: false
                             }
             ],
                         roundOf16: [
@@ -8330,6 +8680,16 @@ const initialState = {
                             {
                                 bracketHolder: '',
                                 bracketKey: 42,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 43,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 44,
                                 bracketVictory: false
                             }
             ],
@@ -8565,6 +8925,16 @@ const initialState = {
                                 bracketHolder: '',
                                 bracketKey: 42,
                                 bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 43,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 44,
+                                bracketVictory: false
                             }
             ],
                         roundOf16: [
@@ -8798,6 +9168,16 @@ const initialState = {
                             {
                                 bracketHolder: '',
                                 bracketKey: 42,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 43,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 44,
                                 bracketVictory: false
                             }
             ],
@@ -9033,6 +9413,16 @@ const initialState = {
                                 bracketHolder: '',
                                 bracketKey: 42,
                                 bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 43,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 44,
+                                bracketVictory: false
                             }
             ],
                         roundOf16: [
@@ -9266,6 +9656,16 @@ const initialState = {
                             {
                                 bracketHolder: '',
                                 bracketKey: 42,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 43,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 44,
                                 bracketVictory: false
                             }
             ],
@@ -9501,6 +9901,16 @@ const initialState = {
                                 bracketHolder: '',
                                 bracketKey: 42,
                                 bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 43,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 44,
+                                bracketVictory: false
                             }
             ],
                         roundOf16: [
@@ -9734,6 +10144,16 @@ const initialState = {
                             {
                                 bracketHolder: '',
                                 bracketKey: 42,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 43,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 44,
                                 bracketVictory: false
                             }
             ],
@@ -9969,6 +10389,16 @@ const initialState = {
                                 bracketHolder: '',
                                 bracketKey: 42,
                                 bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 43,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 44,
+                                bracketVictory: false
                             }
             ],
                         roundOf16: [
@@ -10202,6 +10632,16 @@ const initialState = {
                             {
                                 bracketHolder: '',
                                 bracketKey: 42,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 43,
+                                bracketVictory: false
+                            },
+                            {
+                                bracketHolder: '',
+                                bracketKey: 44,
                                 bracketVictory: false
                             }
             ],
@@ -10492,6 +10932,16 @@ const tournamentsSlice = createSlice({
                                 return (
                                     state.mapList[index].prelimsRound[action.payload.index].bracketVictory = 'V',
                                     state.mapList[index].prelimsRound[10].bracketVictory = 'L'
+                                )   
+                                case 12:
+                                return (
+                                    state.mapList[index].prelimsRound[action.payload.index].bracketVictory = 'V',
+                                    state.mapList[index].prelimsRound[13].bracketVictory = 'L'
+                                )  
+                                case 13:
+                                return (
+                                    state.mapList[index].prelimsRound[action.payload.index].bracketVictory = 'V',
+                                    state.mapList[index].prelimsRound[12].bracketVictory = 'L'
                                 )    
                             default:
                             break;
