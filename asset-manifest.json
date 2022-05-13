@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Aoe3AITournaments/static/css/main.713ea89d.chunk.css",
-    "main.js": "/Aoe3AITournaments/static/js/main.6ffe6d70.chunk.js",
-    "main.js.map": "/Aoe3AITournaments/static/js/main.6ffe6d70.chunk.js.map",
+    "main.js": "/Aoe3AITournaments/static/js/main.d35be8ea.chunk.js",
+    "main.js.map": "/Aoe3AITournaments/static/js/main.d35be8ea.chunk.js.map",
     "runtime-main.js": "/Aoe3AITournaments/static/js/runtime-main.b8aa0434.js",
     "runtime-main.js.map": "/Aoe3AITournaments/static/js/runtime-main.b8aa0434.js.map",
     "static/js/2.3471abc8.chunk.js": "/Aoe3AITournaments/static/js/2.3471abc8.chunk.js",
@@ -40,7 +40,7 @@
     "static/media/Deccan.28ceef25.png": "/Aoe3AITournaments/static/media/Deccan.28ceef25.png",
     "static/media/Dutch.77558d3b.png": "/Aoe3AITournaments/static/media/Dutch.77558d3b.png",
     "static/media/Dutch.948843b7.png": "/Aoe3AITournaments/static/media/Dutch.948843b7.png",
-    "static/media/Ethiopia.95a7acbb.jpg": "/Aoe3AITournaments/static/media/Ethiopia.95a7acbb.jpg",
+    "static/media/Ethiopia.d38f74c5.png": "/Aoe3AITournaments/static/media/Ethiopia.d38f74c5.png",
     "static/media/Ethiopian.0c97980e.png": "/Aoe3AITournaments/static/media/Ethiopian.0c97980e.png",
     "static/media/Everglades.5bdca431.png": "/Aoe3AITournaments/static/media/Everglades.5bdca431.png",
     "static/media/TeamScoresPage.module.css": "/Aoe3AITournaments/static/media/ExploreBackground.12bcfce2.jpg",
@@ -54,7 +54,7 @@
     "static/media/GreatPlains.c0cbecb6.png": "/Aoe3AITournaments/static/media/GreatPlains.c0cbecb6.png",
     "static/media/Haudenosaunee.cef5b8be.png": "/Aoe3AITournaments/static/media/Haudenosaunee.cef5b8be.png",
     "static/media/Haudenosaunee.ffe6fc8b.png": "/Aoe3AITournaments/static/media/Haudenosaunee.ffe6fc8b.png",
-    "static/media/Hausa.4db39247.jpeg": "/Aoe3AITournaments/static/media/Hausa.4db39247.jpeg",
+    "static/media/Hausa.23aa7935.png": "/Aoe3AITournaments/static/media/Hausa.23aa7935.png",
     "static/media/Hausa.f145b728.png": "/Aoe3AITournaments/static/media/Hausa.f145b728.png",
     "static/media/Himalayas.98990c23.png": "/Aoe3AITournaments/static/media/Himalayas.98990c23.png",
     "static/media/Hokkaido.49054f86.png": "/Aoe3AITournaments/static/media/Hokkaido.49054f86.png",
@@ -78,7 +78,7 @@
     "static/media/Malaysia.b469be13.png": "/Aoe3AITournaments/static/media/Malaysia.b469be13.png",
     "static/media/Maltese.188b0e60.png": "/Aoe3AITournaments/static/media/Maltese.188b0e60.png",
     "static/media/Manchuria.647cdba9.png": "/Aoe3AITournaments/static/media/Manchuria.647cdba9.png",
-    "static/media/Mexican.711d6dbb.png": "/Aoe3AITournaments/static/media/Mexican.711d6dbb.png",
+    "static/media/Mexican.2d0892b1.png": "/Aoe3AITournaments/static/media/Mexican.2d0892b1.png",
     "static/media/Mexican.f4825f00.png": "/Aoe3AITournaments/static/media/Mexican.f4825f00.png",
     "static/media/Mexico.10c99027.png": "/Aoe3AITournaments/static/media/Mexico.10c99027.png",
     "static/media/Mongolia.92d785e9.png": "/Aoe3AITournaments/static/media/Mongolia.92d785e9.png",
@@ -114,6 +114,6 @@
     "static/js/runtime-main.b8aa0434.js",
     "static/js/2.3471abc8.chunk.js",
     "static/css/main.713ea89d.chunk.css",
-    "static/js/main.6ffe6d70.chunk.js"
+    "static/js/main.d35be8ea.chunk.js"
   ]
 }
