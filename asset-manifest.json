@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Aoe3AITournaments/static/css/main.88f94afc.chunk.css",
-    "main.js": "/Aoe3AITournaments/static/js/main.827486c6.chunk.js",
-    "main.js.map": "/Aoe3AITournaments/static/js/main.827486c6.chunk.js.map",
+    "main.css": "/Aoe3AITournaments/static/css/main.713ea89d.chunk.css",
+    "main.js": "/Aoe3AITournaments/static/js/main.6ffe6d70.chunk.js",
+    "main.js.map": "/Aoe3AITournaments/static/js/main.6ffe6d70.chunk.js.map",
     "runtime-main.js": "/Aoe3AITournaments/static/js/runtime-main.b8aa0434.js",
     "runtime-main.js.map": "/Aoe3AITournaments/static/js/runtime-main.b8aa0434.js.map",
     "static/js/2.3471abc8.chunk.js": "/Aoe3AITournaments/static/js/2.3471abc8.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.9fadfa80.chunk.js": "/Aoe3AITournaments/static/js/3.9fadfa80.chunk.js",
     "static/js/3.9fadfa80.chunk.js.map": "/Aoe3AITournaments/static/js/3.9fadfa80.chunk.js.map",
     "index.html": "/Aoe3AITournaments/index.html",
-    "static/css/main.88f94afc.chunk.css.map": "/Aoe3AITournaments/static/css/main.88f94afc.chunk.css.map",
+    "static/css/main.713ea89d.chunk.css.map": "/Aoe3AITournaments/static/css/main.713ea89d.chunk.css.map",
     "static/js/2.3471abc8.chunk.js.LICENSE.txt": "/Aoe3AITournaments/static/js/2.3471abc8.chunk.js.LICENSE.txt",
     "static/media/Africa.4e11bb2a.PNG": "/Aoe3AITournaments/static/media/Africa.4e11bb2a.PNG",
     "static/media/Alaska.b175f62c.png": "/Aoe3AITournaments/static/media/Alaska.b175f62c.png",
@@ -66,6 +66,7 @@
     "static/media/Indian.a77510c8.png": "/Aoe3AITournaments/static/media/Indian.a77510c8.png",
     "static/media/Indochina.06132438.png": "/Aoe3AITournaments/static/media/Indochina.06132438.png",
     "static/media/Indonesia.23f03765.png": "/Aoe3AITournaments/static/media/Indonesia.23f03765.png",
+    "static/media/Italian.2bc6d00b.png": "/Aoe3AITournaments/static/media/Italian.2bc6d00b.png",
     "static/media/Japanese.7f2f4b38.png": "/Aoe3AITournaments/static/media/Japanese.7f2f4b38.png",
     "static/media/Japanese.ed814b6b.png": "/Aoe3AITournaments/static/media/Japanese.ed814b6b.png",
     "static/media/Kamchatka.d65abe76.png": "/Aoe3AITournaments/static/media/Kamchatka.d65abe76.png",
@@ -75,6 +76,7 @@
     "static/media/Latin.e66830a7.PNG": "/Aoe3AITournaments/static/media/Latin.e66830a7.PNG",
     "static/media/LatinAmerica.411ed2e9.PNG": "/Aoe3AITournaments/static/media/LatinAmerica.411ed2e9.PNG",
     "static/media/Malaysia.b469be13.png": "/Aoe3AITournaments/static/media/Malaysia.b469be13.png",
+    "static/media/Maltese.188b0e60.png": "/Aoe3AITournaments/static/media/Maltese.188b0e60.png",
     "static/media/Manchuria.647cdba9.png": "/Aoe3AITournaments/static/media/Manchuria.647cdba9.png",
     "static/media/Mexican.711d6dbb.png": "/Aoe3AITournaments/static/media/Mexican.711d6dbb.png",
     "static/media/Mexican.f4825f00.png": "/Aoe3AITournaments/static/media/Mexican.f4825f00.png",
@@ -111,7 +113,7 @@
   "entrypoints": [
     "static/js/runtime-main.b8aa0434.js",
     "static/js/2.3471abc8.chunk.js",
-    "static/css/main.88f94afc.chunk.css",
-    "static/js/main.827486c6.chunk.js"
+    "static/css/main.713ea89d.chunk.css",
+    "static/js/main.6ffe6d70.chunk.js"
   ]
 }
